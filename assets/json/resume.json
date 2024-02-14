@@ -1,18 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Tong Shan",
+    "label": "Biomedical Research Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "tshan@ur.rochester.edu",
+    "phone": "(312)-273-7204",
+    "url": "https://tongshan4869.github.io/",
+    "summary": "A PhD candidate in Biomedical Engineering focused on Hearing, Auditory neuroscience and Music.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "postalCode": "NY 14623",
+      "city": "Rochester",
       "countryCode": "US",
-      "region": "California"
     },
     "profiles": [
       {
