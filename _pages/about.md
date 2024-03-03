@@ -24,7 +24,6 @@ In addition, I have various experience related to digital signal processing, sta
 I am passionate about applying my expertise in audio, hearing science and data analysis to improve the quality of life and well-being of people.
 
 I am also a music producer focused on composing, game music and sound design, as well as music-visual art, where I explore the creative and expressive potential of sound and technology. I am always eager to learn new skills, challenge myself, and contribute to the advancement of science and technology.
-
 You can find my music projects in my personal portfolio website [Cu | 无水醋酸铜](https://teenagingcu.com/).
 
 ---
