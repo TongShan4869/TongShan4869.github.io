@@ -27,7 +27,7 @@ The first part of the project is to develop a robust method that can derive huma
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/publication_preview/ABR_ANM.tiff" title="Results ABR" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ABR_ANM.jpeg" title="Results ABR" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
