@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Chimeric Music
+description: Exploring pitch-timing interaction on the neural encoding of music
 img: assets/img/3.jpg
 importance: 2
 category: work
