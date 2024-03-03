@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Neural Encoding of Music and Speech in Human Listeners
-description: Investigating subcortical and cortical neural encoding of the acoustics of music and speech
+title: Neural Encoding of Music and Speech
+description: Investigating subcortical and cortical neural encoding of the acoustics of music and speech from human listeners
 img: assets/img/music-mind-stock-1000.jpeg
 importance: 1
 category: Academic
