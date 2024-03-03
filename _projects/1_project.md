@@ -5,14 +5,16 @@ description: Investigating subcortical and cortical neural encoding of the acous
 img: assets/img/music-mind-stock-1000.jpeg
 importance: 1
 category: Academic
-related_publications: true
+related_publications: shan2024subcortical
 ---
 The first publication of this project is out!
 
 Check out here:
+
   ---
-  Shan, T., Cappelloni, M.S. & Maddox, R.K. Subcortical responses to music and speech are alike while cortical responses diverge. Sci Rep 14, 789 (2024). https://doi.org/10.1038/s41598-023-50438-0
+  Shan, T., Cappelloni, M.S. & Maddox, R.K. Subcortical responses to music and speech are alike while cortical responses diverge. Sci Rep 14, 789 (2024). [https://doi.org/10.1038/s41598-023-50438-0](https://doi.org/10.1038/s41598-023-50438-0)
   ---
+
 ---
 
 The first part of the project is to develop a robust method that can derive human subcortical response from continuous naturalistic music that has never been done successfully before. Explore and compare the subcortical encoding between music and speech using the new method.
