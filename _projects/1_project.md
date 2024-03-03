@@ -1,81 +1,42 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Neural Encoding of Music and Speech in Human Listeners
+description: Investigating subcortical and cortical neural encoding of the acoustics of music and speech
+img: assets/img/music-mind-stock-1000.jpeg
 importance: 1
-category: work
+category: Academic
 related_publications: true
 ---
+The first publication of this project is out!
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Check out here:
+  ---
+  Shan, T., Cappelloni, M.S. & Maddox, R.K. Subcortical responses to music and speech are alike while cortical responses diverge. Sci Rep 14, 789 (2024). https://doi.org/10.1038/s41598-023-50438-0
+  ---
+---
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The first part of the project is to develop a robust method that can derive human subcortical response from continuous naturalistic music that has never been done successfully before. Explore and compare the subcortical encoding between music and speech using the new method.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Key Findings**
+
+- We developed a novel method to derive human auditory brainstem response (ABR) to continuous naturalistic sounds, based on deconvolution paradigm. In our new method, we used a physiological regressor, the modeled auditory nerve firing rate from a detialed computational auditory periphery model.
+- This method improve the current auditory brainstem response derivation a ton, and can be generalized to all different types of natural sounds.
+- We used quantitative metrics such as the response SNR, prediction accuracy, and spectral coherence, to determine the reliability and robustness of our new developed method. Our new methods is also very efficient in time.
+- With our new method, we found there is no appreciable impact of stimulus class (i.e., music vs speech) on the way stimulus acoustics are encoded subcortically. Our new analysis method also resulted in cortical music and speech responses becoming more similar but with remaining differences.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/publication_preview/ABR_ANM.tiff" title="Results ABR" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    General music- and speech-evoked ABR waveforms using the ANM regressor.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+please refer to the [publication](https://doi.org/10.1038/s41598-023-50438-0) for more details!
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+---
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The second part of this project is to quantitatively compare our newly developed method with other method using deconvolution paradigm, where we aim to help guide decisions on what approach to choose when deriving ABRs from natural speech and other natural sounds.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+The results is published in a conference [poster](https://www.researchgate.net/publication/378549401_Comparing_Methods_for_Deriving_the_Auditory_Brainstem_Response_to_Continuous_Speech_in_Human_Listeners_ARO_2023) but the final paper is coming soon!
