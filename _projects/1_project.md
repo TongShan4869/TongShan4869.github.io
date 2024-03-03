@@ -5,7 +5,6 @@ description: Investigating subcortical and cortical neural encoding of the acous
 img: assets/img/music-mind-stock-1000.jpeg
 importance: 1
 category: Academic
-related_publications: shan2024subcortical
 ---
 The first publication of this project is out!
 
