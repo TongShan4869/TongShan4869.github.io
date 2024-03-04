@@ -65,6 +65,7 @@ Podium talk: *Subcortical Response to Continuous Music in Human Listeners*
 Poster Presentation: *Neural Fluctuation Profiles: Yet Another Model for Pitch*
 
 [poster](https://github.com/TongShan4869/Musical-Dissonance-Neural-Coding/blob/main/ARO_2019_Carney_pitch_Final.pdf)
+
 ---
 
 **Organization for Human Brain Mapping Conference 2017**
