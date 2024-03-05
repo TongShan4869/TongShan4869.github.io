@@ -36,6 +36,8 @@ The first part of the project is to develop a robust method that can derive huma
 
 please refer to the [publication](https://doi.org/10.1038/s41598-023-50438-0) for more details!
 
+Data available at [openneuro](https://openneuro.org/datasets/ds004356/versions/2.2.1) ;code available at [github](https://github.com/maddoxlab/Music_vs_Speech_abr).
+
 ---
 
 The second part of this project is to quantitatively compare our newly developed method with other method using deconvolution paradigm, where we aim to help guide decisions on what approach to choose when deriving ABRs from natural speech and other natural sounds.
