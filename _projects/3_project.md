@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Musical Consonance Coding in Midbrain Neurons
-description: a project that redirects to another website
-img: assets/img/7.jpg
+description: Representation of consonance/dissonance of music intervals/chords by the midbrain neurons - A modeling work.
+img: assets/img/chord.png
 importance: 3
 category: Academic
 ---
@@ -26,7 +26,7 @@ We then correlate the metrics with the behavioral data.
     </div>
 </div>
 <div class="caption">
-    General music- and speech-evoked ABR waveforms using the ANM regressor.
+    The perceptual consonance score superimposed by the IC neural activity profile.
 </div>
 
 Pearson's r=0.78 between the IC neuron fluctuation profile and the behavioral results from Tufts et al. (2005).
