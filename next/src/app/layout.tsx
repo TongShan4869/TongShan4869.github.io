@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SmoothScroll from "@/components/SmoothScroll";
+import CustomCursor from "@/components/CustomCursor";
+import ScrollToTop from "@/components/ScrollToTop";
+import ScrollProgress from "@/components/ScrollProgress";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import CopyrightFooter from "@/components/CopyrightFooter";
+import FooterWrapper from "@/components/FooterWrapper";
 
 export const metadata: Metadata = {
   title: {
@@ -20,7 +28,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="antialiased">
+        <SmoothScroll />
+        <CustomCursor />
+        <ScrollProgress />
+        <Navigation />
+        <ScrollToTop />
         {children}
+        <FooterWrapper
+          fullFooter={<Footer />}
+          minimalFooter={<CopyrightFooter />}
+        />
       </body>
     </html>
   );
