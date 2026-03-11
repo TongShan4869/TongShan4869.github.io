@@ -1,26 +1,46 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-accent: #4EC5D4;
+  --color-secondary: #888888;
+  --font-display: "Inter Display", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --max-width-site: 1480px;
+  --letter-spacing-tighter: -0.04em;
+  --letter-spacing-tightest: -0.06em;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  background: #4EC5D4;
+  color: #000;
+}
+
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}
+
+@utility marquee-on-repeat {
+  display: flex;
+  width: max-content;
+  animation: marquee-on-repeat 120s linear infinite;
+  will-change: transform;
+}
+@utility marquee-on-repeat-content {
+  flex-shrink: 0;
+}
+@keyframes marquee-on-repeat {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
 }
