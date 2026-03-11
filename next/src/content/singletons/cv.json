@@ -1,0 +1,79 @@
+{
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "institution": "University of Rochester, USA",
+      "year": "2018-2024",
+      "description": "Biomedical Engineering - Neuroscience/NeuroEngineering"
+    },
+    {
+      "degree": "M.Sc.",
+      "institution": "Northwestern University, USA",
+      "year": "2017-2018",
+      "description": "Biostatistics"
+    },
+    {
+      "degree": "B.S.",
+      "institution": "Sichuan University, China",
+      "year": "2012-2016",
+      "description": "Medical Imaging"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Research Scientist Intern",
+      "institution": "Meta - Reality Labs Research, USA",
+      "year": "2023",
+      "description": "Led a research project within the audio team on improving auditory experiences in AR/VR devices through neurophysiological signal analysis on a prototype firmware. Initiated, designed, and executed the entire experiment pipeline, employing Python for data collection, signal processing, data analysis, and machine learning algorithms."
+    },
+    {
+      "title": "Research Assistant",
+      "institution": "Huaxi MR Research Center (HMRRC), Sichuan University, China",
+      "year": "2016-2017",
+      "description": "Gathered, analyzed, and processed data in functional MRI & Diffusion Tensor Imaging (DTI). Conducted a research project in quantifying white matter changes through DTI in earthquake survivors and healthy people."
+    },
+    {
+      "title": "Teaching Assistant",
+      "institution": "University of Rochester, USA",
+      "year": "2020",
+      "description": "Provided support to courses including Signals, Systems & Imaging and Biomedical Computation & Statistics."
+    }
+  ],
+  "awards": [
+    { "title": "ARO Mid-Winter Meeting Travel Award", "year": "2021" },
+    { "title": "ARO Mid-Winter Meeting Travel Award", "year": "2020" },
+    { "title": "Biostatistics Program Tuition Scholarship", "year": "2017" },
+    { "title": "Sichuan University Second Class Scholarship", "year": "2015" }
+  ],
+  "skills": [
+    "Python",
+    "MATLAB",
+    "R",
+    "EEG/ERP Analysis",
+    "Signal Processing",
+    "Machine Learning",
+    "Statistical Analysis",
+    "Computational Modeling",
+    "Audio Engineering",
+    "Game Audio",
+    "Music Production"
+  ],
+  "memberships": [
+    {
+      "name": "Association for Research in Otolaryngology (ARO)",
+      "description": "Member of ARO Education Committee and spARO (Trainee Chapter) Steering Committee. Organize professional workshops, seminar series and coffee hours."
+    },
+    {
+      "name": "Organization for Women in Science for the Developing World",
+      "description": ""
+    },
+    {
+      "name": "American Association of University Women",
+      "description": ""
+    },
+    {
+      "name": "Game Audio Network Guild",
+      "description": ""
+    }
+  ]
+}
