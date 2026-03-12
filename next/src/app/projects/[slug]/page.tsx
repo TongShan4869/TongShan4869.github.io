@@ -144,9 +144,14 @@ export default async function ProjectDetailPage({
 
       {/* Body */}
       <AnimateOnScroll delay={0.3}>
-        <div className="prose prose-invert prose-lg max-w-none">
-          <DocumentRenderer document={bodyContent as any} />
-        </div>
+        <div
+          className="prose prose-invert prose-lg max-w-none"
+          dangerouslySetInnerHTML={{
+            __html: Markdoc.renderers.html(
+              Markdoc.transform(bodyContent.node)
+            ),
+          }}
+        />
       </AnimateOnScroll>
 
       {/* Back link */}
