@@ -4,7 +4,7 @@ import MotionPill from "./MotionPill";
 
 const socials = [
   {
-    url: "https://github.com/TongShan4869",
+    url: "https://github.com/tongshan4869",
     label: "GitHub",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -13,7 +13,7 @@ const socials = [
     ),
   },
   {
-    url: "https://www.linkedin.com/in/tong-shan-4869",
+    url: "https://linkedin.com/in/tong-shan1994",
     label: "LinkedIn",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -22,7 +22,7 @@ const socials = [
     ),
   },
   {
-    url: "https://scholar.google.com/citations?user=PLACEHOLDER",
+    url: "https://scholar.google.com/citations?user=eUVUjXwAAAAJ",
     label: "Google Scholar",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -40,7 +40,7 @@ const socials = [
     ),
   },
   {
-    url: "https://x.com/TongShan4869",
+    url: "https://x.com/tong_shan_",
     label: "X",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

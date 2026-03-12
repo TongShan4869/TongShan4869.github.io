@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://TongShan4869.github.io/sitemap.xml
+
+Disallow: /keystatic
