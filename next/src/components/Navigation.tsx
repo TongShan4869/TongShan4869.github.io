@@ -1,10 +1,9 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence, useMotionValueEvent, useScroll } from "framer-motion";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -19,9 +18,9 @@ export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [visible, setVisible] = useState(true);
   const pathname = usePathname();
-  const router = useRouter();
   const { scrollY } = useScroll();
   const lastScrollY = useRef(0);
+  const isKeystatic = pathname.startsWith("/keystatic");
 
   const handleNavClick = (e: React.MouseEvent, href: string) => {
     if (href.startsWith("/#")) {
@@ -33,9 +32,6 @@ export default function Navigation() {
       }
     }
   };
-
-  // Hide navigation on Keystatic admin pages
-  if (pathname.startsWith("/keystatic")) return null;
 
   // Show on scroll up, hide on scroll down (after passing the initial nav height)
   useMotionValueEvent(scrollY, "change", (current) => {
@@ -49,6 +45,9 @@ export default function Navigation() {
     }
     lastScrollY.current = current;
   });
+
+  // Hide navigation on Keystatic admin pages
+  if (isKeystatic) return null;
 
   return (
     <>

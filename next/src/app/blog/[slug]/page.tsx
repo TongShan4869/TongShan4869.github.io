@@ -1,5 +1,5 @@
 import { getAllPosts, getPost } from "@/lib/content";
-import { DocumentRenderer } from "@keystatic/core/renderer";
+import Markdoc from "@markdoc/markdoc";
 import Image from "next/image";
 import Link from "next/link";
 import MotionPill from "@/components/MotionPill";
@@ -104,9 +104,14 @@ export default async function BlogPostPage({
 
       {/* Body */}
       <AnimateOnScroll delay={0.25}>
-        <div className="prose prose-invert prose-lg max-w-none">
-          <DocumentRenderer document={bodyContent as any} />
-        </div>
+        <div
+          className="prose prose-invert prose-lg max-w-none"
+          dangerouslySetInnerHTML={{
+            __html: Markdoc.renderers.html(
+              Markdoc.transform(bodyContent.node)
+            ),
+          }}
+        />
       </AnimateOnScroll>
 
       {/* Back link */}

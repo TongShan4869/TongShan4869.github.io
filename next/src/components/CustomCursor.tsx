@@ -13,8 +13,8 @@ export default function CustomCursor() {
 
   // Reset cursor state on route change
   useEffect(() => {
-    setCursorText("");
-    setHovered(false);
+    const reset = () => { setCursorText(""); setHovered(false); };
+    reset();
   }, [pathname]);
 
   useEffect(() => {

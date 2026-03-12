@@ -6,7 +6,7 @@ export default config({
     projects: collection({
       label: "Projects",
       slugField: "title",
-      path: "src/content/projects/*",
+      path: "src/content/projects/*/",
       format: { contentField: "body" },
       schema: {
         title: fields.slug({ name: { label: "Title" } }),
@@ -41,7 +41,7 @@ export default config({
     posts: collection({
       label: "Blog Posts",
       slugField: "title",
-      path: "src/content/posts/*",
+      path: "src/content/posts/*/",
       format: { contentField: "body" },
       schema: {
         title: fields.slug({ name: { label: "Title" } }),
@@ -68,7 +68,7 @@ export default config({
     news: collection({
       label: "News",
       slugField: "title",
-      path: "src/content/news/*",
+      path: "src/content/news/*/",
       format: { contentField: "body" },
       schema: {
         title: fields.slug({ name: { label: "Title" } }),

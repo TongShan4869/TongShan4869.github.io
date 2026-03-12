@@ -26,10 +26,6 @@ function highlightShan(authors: string[]) {
 }
 
 export default function PublicationEntry({ publication: pub, delay = 0 }: Props) {
-  const link = pub.doi
-    ? `https://doi.org/${pub.doi}`
-    : pub.url ?? pub.html ?? null;
-
   return (
     <AnimateOnScroll delay={delay}>
       <article className="flex gap-5 py-5">

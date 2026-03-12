@@ -33,7 +33,8 @@ export default function ProjectCard({
   const springRotateY = useSpring(rotateY, { stiffness: 150, damping: 30 });
 
   useEffect(() => {
-    setIsDesktop(window.matchMedia("(pointer: fine)").matches);
+    const update = () => setIsDesktop(window.matchMedia("(pointer: fine)").matches);
+    update();
   }, []);
 
   const handleMouseMove = (e: React.MouseEvent) => {
