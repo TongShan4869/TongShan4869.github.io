@@ -1,108 +1,76 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
-import { transitions, variants } from "@/lib/transitions";
-import MotionPill from "@/components/MotionPill";
-import HeroWaveform from "@/components/HeroWaveform";
-
-const PILLS = ["Researcher", "Engineer", "Creator"] as const;
+import { motion } from "framer-motion";
+import FillWidthText from "./FillWidthText";
+import HeroWaveform from "./HeroWaveform";
 
 export default function Hero() {
-  const shouldReduceMotion = useReducedMotion();
-
-  const animate = shouldReduceMotion
-    ? {}
-    : { opacity: 1, y: 0 };
-  const initial = shouldReduceMotion
-    ? {}
-    : { opacity: 0, y: 30 };
-
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
-      {/* Waveform background */}
-      <div className="absolute inset-0 z-0">
+    <section className="relative flex flex-col overflow-hidden">
+      {/* Background waveform — fixed so it stays while page scrolls */}
+      <div className="fixed inset-0 z-0">
         <HeroWaveform />
-        {/* Dark gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60" />
+        {/* Dark overlay to keep text readable */}
+        <div className="absolute inset-0 bg-black/60" />
+        {/* Bottom gradient fade to black */}
+        <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-b from-transparent to-black" />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 px-6 md:px-12 text-center">
-        {/* Name */}
-        <motion.h1
-          initial={initial}
-          animate={animate}
-          transition={shouldReduceMotion ? undefined : { ...transitions.spring, delay: 0 }}
-          className="text-[clamp(3rem,8vw,7rem)] font-display font-bold tracking-tightest leading-[0.95] mb-6"
-        >
-          Tong Shan
-        </motion.h1>
-
-        {/* Tagline pills */}
+      {/* Main hero content area */}
+      <div className="relative z-10 px-6 md:px-8 lg:px-12 pt-28 md:pt-12 flex items-end justify-between">
         <motion.div
-          initial={shouldReduceMotion ? {} : variants.staggerContainer.hidden}
-          animate={shouldReduceMotion ? {} : variants.staggerContainer.visible}
-          className="flex flex-wrap items-center justify-center gap-3 mb-6"
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
         >
-          {PILLS.map((label, i) => (
-            <motion.div
-              key={label}
-              initial={initial}
-              animate={animate}
-              transition={
-                shouldReduceMotion
-                  ? undefined
-                  : { ...transitions.spring, delay: 0.1 + i * 0.1 }
-              }
-            >
-              <MotionPill
-                as="span"
-                className="inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-sm font-medium text-accent"
-              >
-                {label}
-              </MotionPill>
-            </motion.div>
-          ))}
+          <h2 className="text-[clamp(1.8rem,5.5vw,4.5rem)] font-display font-semibold leading-[1.1] tracking-tighter">
+            Researcher.
+            <br />
+            Engineer.
+            <br />
+            <span className="text-accent">Creator.</span>
+          </h2>
         </motion.div>
-
-        {/* One-liner */}
         <motion.p
-          initial={initial}
-          animate={animate}
-          transition={shouldReduceMotion ? undefined : { ...transitions.spring, delay: 0.4 }}
-          className="text-secondary text-base md:text-lg tracking-tight"
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.15 }}
+          className="hidden md:block text-[clamp(1rem,2.5vw,2rem)] font-display font-semibold leading-[1.1] tracking-tighter text-right"
         >
-          Auditory Neuroscience &middot; Hearing Science &middot; Music
+          Science is art.
         </motion.p>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Thin divider line with tags */}
       <motion.div
-        initial={shouldReduceMotion ? {} : { opacity: 0 }}
-        animate={shouldReduceMotion ? {} : { opacity: 1 }}
-        transition={shouldReduceMotion ? undefined : { delay: 0.8, duration: 0.6 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.5 }}
+        className="relative z-10 bg-white text-black py-1.5 px-6 md:px-8 lg:px-12 my-8"
       >
-        <motion.svg
-          animate={shouldReduceMotion ? {} : { y: [0, 8, 0] }}
-          transition={
-            shouldReduceMotion
-              ? undefined
-              : { duration: 1.5, repeat: Infinity, ease: "easeInOut" }
-          }
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="text-secondary/60"
-        >
-          <polyline points="6 9 12 15 18 9" />
-        </motion.svg>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-0.5 md:gap-0 text-xs md:text-sm font-bold">
+          <span>AUDITORY NEUROSCIENCE</span>
+          <span className="md:text-center">HEARING SCIENCE</span>
+          <span className="md:text-right">MUSIC | AUDIO | AI</span>
+        </div>
+      </motion.div>
+
+      {/* Bottom: MASSIVE name filling full width */}
+      <motion.div
+        initial={{ opacity: 0, y: 60 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.3 }}
+        className="relative z-10 pb-6"
+      >
+        <FillWidthText className="text-[18vw] font-display font-bold tracking-tightest leading-[0.85]">
+          <h1>
+            Tong Shan
+            {" "}
+            <span className="text-[0.75em]">
+              单<span className="text-accent">彤</span>
+            </span>
+          </h1>
+        </FillWidthText>
       </motion.div>
     </section>
   );
