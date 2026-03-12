@@ -32,16 +32,3 @@ body {
   }
 }
 
-@utility marquee-on-repeat {
-  display: flex;
-  width: max-content;
-  animation: marquee-on-repeat 120s linear infinite;
-  will-change: transform;
-}
-@utility marquee-on-repeat-content {
-  flex-shrink: 0;
-}
-@keyframes marquee-on-repeat {
-  0% { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(-50%, 0, 0); }
-}
