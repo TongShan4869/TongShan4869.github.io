@@ -70,7 +70,7 @@ function toPublication(entry: RawEntry): Publication {
     type: entry.type,
     title: f.title ?? "",
     authors: f.author ? parseAuthors(f.author) : [],
-    journal: f.journal ?? "",
+    journal: f.journal ?? f.school ?? "",
     year: parseInt(f.year ?? "0", 10),
     volume: f.volume,
     pages: f.pages,

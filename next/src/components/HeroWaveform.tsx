@@ -13,10 +13,10 @@ interface Wave {
 }
 
 const WAVES: Wave[] = [
-  { amplitude: 40, frequency: 0.003, speed: 0.4, phase: 0, opacity: 0.08, lineWidth: 1.5 },
-  { amplitude: 55, frequency: 0.005, speed: 0.6, phase: 1.2, opacity: 0.12, lineWidth: 1.8 },
-  { amplitude: 30, frequency: 0.007, speed: 0.8, phase: 2.5, opacity: 0.18, lineWidth: 1.2 },
-  { amplitude: 45, frequency: 0.004, speed: 1.0, phase: 3.8, opacity: 0.25, lineWidth: 1.4 },
+  { amplitude: 50, frequency: 0.003, speed: 0.4, phase: 0, opacity: 0.25, lineWidth: 2 },
+  { amplitude: 65, frequency: 0.005, speed: 0.6, phase: 1.2, opacity: 0.35, lineWidth: 2.5 },
+  { amplitude: 35, frequency: 0.007, speed: 0.8, phase: 2.5, opacity: 0.45, lineWidth: 1.8 },
+  { amplitude: 50, frequency: 0.004, speed: 1.0, phase: 3.8, opacity: 0.55, lineWidth: 2 },
 ];
 
 const MOUSE_RADIUS = 200;

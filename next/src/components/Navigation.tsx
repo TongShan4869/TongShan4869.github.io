@@ -57,9 +57,10 @@ export default function Navigation() {
         transition={{ duration: 0.3, ease: [0.32, 0.72, 0, 1] }}
         className="hidden md:block fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md"
       >
-        <div className="grid grid-cols-[auto_1fr_auto] items-start px-8 lg:px-12 py-5">
+        <div className="grid grid-cols-3 items-center px-8 lg:px-12 py-5">
           <Link href="/" className="tracking-tightest">
             <span className="text-lg font-bold block leading-none">Tong Shan</span>
+            <span className="text-lg font-bold block leading-none mt-2">单 彤</span>
           </Link>
           <div className="text-center">
             <p className="text-sm font-semibold mb-0.5">Quick Links</p>
@@ -80,6 +81,7 @@ export default function Navigation() {
           </div>
           <div className="text-right">
             <p className="text-sm font-semibold mb-0.5">Researcher / Engineer / Creator</p>
+            <p className="text-sm text-white">Postdoc @ Stanford</p>
           </div>
         </div>
         <div className="h-px bg-accent" />
@@ -94,7 +96,8 @@ export default function Navigation() {
         className="md:hidden fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-black/90 backdrop-blur-md border-b border-white/10"
       >
         <Link href="/" className="tracking-tightest">
-          <span className="text-base font-bold block leading-tight">Tong Shan</span>
+          <span className="text-lg font-bold block leading-tight">Tong Shan</span>
+          <span className="text-lg font-bold block leading-tight mt-1">单 彤</span>
         </Link>
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
