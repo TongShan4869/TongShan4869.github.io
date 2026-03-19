@@ -19,6 +19,15 @@ const config: Config = {
         tighter: "-0.04em",
         tightest: "-0.06em",
       },
+      animation: {
+        marquee: "marquee 240s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translate3d(0, 0, 0)" },
+          "100%": { transform: "translate3d(-50%, 0, 0)" },
+        },
+      },
     },
   },
   plugins: [],

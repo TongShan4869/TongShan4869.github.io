@@ -31,16 +31,25 @@ const socials = [
     ),
   },
   {
-    url: "https://www.researchgate.net/profile/Tong-Shan",
-    label: "ResearchGate",
+    url: "https://medium.com/@cuinrnd",
+    label: "Medium",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M19.586 0c-1.127 0-2.04.343-2.743 1.028-.703.686-1.054 1.575-1.054 2.669 0 1.062.338 1.926 1.014 2.593.677.666 1.554 1 2.633 1 .42 0 .812-.06 1.18-.178.366-.118.664-.28.89-.486l-.48-.896c-.406.336-.905.504-1.496.504-.675 0-1.21-.218-1.605-.654-.395-.436-.592-1.024-.592-1.764 0-.77.2-1.38.6-1.83.4-.45.936-.676 1.608-.676.583 0 1.074.166 1.473.497l.497-.897c-.208-.2-.5-.358-.875-.472A3.6 3.6 0 0 0 19.586 0zM8.648 7.642c-1.396 0-2.606.265-3.63.796-1.023.53-1.812 1.28-2.365 2.247-.554.968-.83 2.078-.83 3.33 0 1.868.613 3.375 1.838 4.52C4.887 19.68 6.518 20.252 8.56 20.252c1.143 0 2.206-.168 3.19-.504.985-.336 1.724-.77 2.217-1.3l-.917-1.252c-.996.918-2.297 1.377-3.903 1.377-1.35 0-2.442-.393-3.275-1.178-.833-.786-1.25-1.812-1.25-3.08 0-1.387.442-2.49 1.326-3.31.885-.82 2.058-1.23 3.52-1.23.724 0 1.35.1 1.878.3.527.2.945.472 1.253.816l.917-1.252c-.368-.436-.898-.784-1.59-1.045-.693-.26-1.48-.39-2.362-.39h-.014l.098-.562z" />
+        <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
       </svg>
     ),
   },
   {
-    url: "https://x.com/tong_shan_",
+    url: "https://substack.com/@cuinrnd",
+    label: "Substack",
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
+      </svg>
+    ),
+  },
+  {
+    url: "https://x.com/cuinmusic",
     label: "X",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -60,7 +69,7 @@ export default function Footer() {
               CONTACT
             </h2>
             <p className="text-sm text-white/50">
-              Get in touch — <a href="mailto:tshan@ur.rochester.edu" className="text-accent hover:underline">tshan@ur.rochester.edu</a>
+              Get in touch — <a href="mailto:tongshan@stanford.edu" className="text-accent hover:underline">tongshan@stanford.edu</a>
             </p>
           </div>
         </AnimateOnScroll>

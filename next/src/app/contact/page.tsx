@@ -38,11 +38,20 @@ const socialLinks = [
     ),
   },
   {
-    key: "researchgateUrl",
-    label: "ResearchGate",
+    key: "mediumUrl",
+    label: "Medium",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M19.586 0c-1.37 0-2.673.584-3.611 1.523L12 5.5 7.975 1.523C7.037.584 5.734 0 4.364 0 1.954 0 0 1.954 0 4.364v15.272C0 22.046 1.954 24 4.364 24c1.37 0 2.673-.584 3.611-1.523L12 18.5l4.025 3.977c.938.939 2.241 1.523 3.611 1.523C22.046 24 24 22.046 24 19.636V4.364C24 1.954 22.046 0 19.586 0zM12 15.5l-4-4 4-4 4 4-4 4z" />
+        <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
+      </svg>
+    ),
+  },
+  {
+    key: "substackUrl",
+    label: "Substack",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
       </svg>
     ),
   },
@@ -62,7 +71,7 @@ type SocialKey = (typeof socialLinks)[number]["key"];
 export default async function ContactPage() {
   const site = await getSiteSettings();
 
-  const email = site?.email ?? "tshan@ur.rochester.edu";
+  const email = site?.email ?? "tongshan@stanford.edu";
   const formspreeId = site?.formspreeId ?? "";
 
   return (

@@ -48,7 +48,7 @@ export default function AboutBrief({ bio, photo }: AboutBriefProps) {
     <section
       id="about"
       ref={sectionRef}
-      className="pt-0 pb-8 md:pb-12 relative overflow-hidden"
+      className="pt-0 pb-8 md:pb-12 relative overflow-hidden bg-black"
     >
       <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-0 items-center px-6 md:px-8 lg:px-12">
         {/* Left: text */}
