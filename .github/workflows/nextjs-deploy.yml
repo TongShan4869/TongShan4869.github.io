@@ -24,6 +24,8 @@ jobs:
           cache: npm
           cache-dependency-path: next/package-lock.json
       - run: cd next && npm ci
+      - name: Remove dev-only Keystatic routes
+        run: rm -rf next/src/app/api next/src/app/keystatic
       - run: cd next && npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
