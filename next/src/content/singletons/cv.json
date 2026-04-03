@@ -4,7 +4,7 @@
       "degree": "Ph.D.",
       "institution": "University of Rochester, USA",
       "year": "2018-2024",
-      "description": "Biomedical Engineering - Neuroscience/NeuroEngineering"
+      "description": "Biomedical Engineering - Neuroscience/NeuroEngineering. Adviser: Ross K. Maddox. Thesis: Neural Encoding of Musical Acoustics and Higher Order Features Across the Human Auditory System"
     },
     {
       "degree": "M.Sc.",
@@ -17,51 +17,87 @@
       "institution": "Sichuan University, China",
       "year": "2012-2016",
       "description": "Medical Imaging"
+    },
+    {
+      "degree": "Certificate",
+      "institution": "The Erdos Institute",
+      "year": "2024",
+      "description": "Data Science Boot Camp; Deep Learning Boot Camp"
+    },
+    {
+      "degree": "Certificate",
+      "institution": "Deeplearning.ai",
+      "year": "2026",
+      "description": "Agentic AI"
     }
   ],
   "experience": [
     {
-      "title": "Research Scientist Intern",
+      "title": "Postdoctoral Research Scientist",
+      "institution": "Stanford University, Department of Psychiatry & Behavioral Sciences, Stanford Medicine",
+      "year": "2024-Present",
+      "description": "Lead independent and collaborative research on neural mechanisms of speech communication and social interaction. Conduct NIH-funded studies on speaker-listener brain coupling and auditory temporal integration during naturalistic communication in children with autism spectrum disorder (ASD). Initiated and developed a new EEG research program for pediatric auditory neuroscience."
+    },
+    {
+      "title": "Research Scientist Intern - Audio Team",
       "institution": "Meta - Reality Labs Research, USA",
       "year": "2023",
-      "description": "Led a research project within the audio team on improving auditory experiences in AR/VR devices through neurophysiological signal analysis on a prototype firmware. Initiated, designed, and executed the entire experiment pipeline, employing Python for data collection, signal processing, data analysis, and machine learning algorithms."
+      "description": "Led end-to-end research project to improve auditory experiences in AR/VR wearable devices through neurophysiological signal analysis on prototype hardware. Independently designed and executed the full experiment pipeline—stimulus design, data collection, signal processing, and ML-based data analysis—to evaluate hearing health in real-world environments. Developed Python pipelines for processing noisy neurophysiological data from wearable sensors."
+    },
+    {
+      "title": "Graduate Researcher",
+      "institution": "University of Rochester, USA",
+      "year": "2018-2024",
+      "description": "Developed novel computational methods to derive human auditory brainstem responses from continuous naturalistic stimuli. Engineered chimeric music stimuli and applied EEG/ERP/TRF and ML decoding to investigate neural encoding of pitch-timing interactions in music cognition. Designed and evaluated speech-in-noise studies with DNN-generated talking face stimuli."
     },
     {
       "title": "Research Assistant",
       "institution": "Huaxi MR Research Center (HMRRC), Sichuan University, China",
       "year": "2016-2017",
-      "description": "Gathered, analyzed, and processed data in functional MRI & Diffusion Tensor Imaging (DTI). Conducted a research project in quantifying white matter changes through DTI in earthquake survivors and healthy people."
+      "description": "Gathered, analyzed, and processed data in functional MRI & Diffusion Tensor Imaging (DTI). Conducted research quantifying white matter changes through DTI in earthquake survivors and healthy controls."
     },
     {
       "title": "Teaching Assistant",
       "institution": "University of Rochester, USA",
       "year": "2020",
-      "description": "Provided support to courses including Signals, Systems & Imaging and Biomedical Computation & Statistics."
+      "description": "Provided support to courses including BME 230: Signals, Systems & Imaging and BME 220: Biomedical Computation & Statistics."
     }
   ],
   "awards": [
+    { "title": "Biomedical Engineering Department Travel Award", "year": "2023" },
     { "title": "ARO Mid-Winter Meeting Travel Award", "year": "2021" },
     { "title": "ARO Mid-Winter Meeting Travel Award", "year": "2020" },
     { "title": "Biostatistics Program Tuition Scholarship", "year": "2017" },
     { "title": "Sichuan University Second Class Scholarship", "year": "2015" }
   ],
   "skills": [
-    "Python",
+    "Python (PyTorch, scikit-learn, NumPy, SciPy, MNE, Pandas)",
     "MATLAB",
     "R",
-    "EEG/ERP Analysis",
-    "Signal Processing",
-    "Machine Learning",
+    "SQL",
+    "Jupyter",
+    "Linux",
+    "Git",
+    "EEG/ABR Signal Processing",
+    "fMRI/DTI",
+    "Digital Signal Processing",
+    "Machine Learning & Deep Learning",
     "Statistical Analysis",
     "Computational Modeling",
-    "Audio Engineering",
-    "Game Audio",
+    "Psychoacoustics",
+    "Experiment Design",
+    "Audio Engineering (Logic Pro X, Max/MSP)",
+    "Game Audio (Unity)",
     "Music Production"
   ],
   "memberships": [
     {
       "name": "Association for Research in Otolaryngology (ARO)",
-      "description": "Member of ARO Education Committee and spARO (Trainee Chapter) Steering Committee. Organize professional workshops, seminar series and coffee hours."
+      "description": "Member of ARO Education Committee. Organize professional workshops, seminar series and coffee hours."
+    },
+    {
+      "name": "Science in Motion (Non-profit Scientific Organization)",
+      "description": "Director of Music"
     },
     {
       "name": "Organization for Women in Science for the Developing World",

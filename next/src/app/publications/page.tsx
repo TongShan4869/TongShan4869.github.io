@@ -30,7 +30,7 @@ export default function PublicationsPage() {
         <ScrollingMarquee text="PUBLICATIONS" />
       </section>
 
-      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-24 max-w-4xl">
+      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-24 max-w-6xl mx-auto">
         {years.map((year) => {
           const pubs = pubsByYear.get(year)!;
           return (
@@ -52,7 +52,7 @@ export default function PublicationsPage() {
         })}
       </section>
 
-      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-24 max-w-4xl border-t border-white/10">
+      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-24 max-w-6xl mx-auto border-t border-white/10">
         <AnimateOnScroll>
           <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tightest text-white mb-8">
             Conference Presentations
