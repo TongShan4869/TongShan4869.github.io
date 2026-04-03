@@ -1,0 +1,238 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Tong Shan 单 彤" [ref=e4]:
+        - /url: /
+        - generic [ref=e5]: Tong Shan
+        - generic [ref=e6]: 单 彤
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Quick Links
+        - paragraph [ref=e9]:
+          - generic [ref=e10]:
+            - link "Home" [ref=e11]:
+              - /url: /
+            - text: "|"
+          - generic [ref=e12]:
+            - link "Projects" [ref=e13]:
+              - /url: /projects
+            - text: "|"
+          - generic [ref=e14]:
+            - link "Publications" [ref=e15]:
+              - /url: /publications
+            - text: "|"
+          - generic [ref=e16]:
+            - link "Blog" [ref=e17]:
+              - /url: /blog
+            - text: "|"
+          - generic [ref=e18]:
+            - link "CV" [ref=e19]:
+              - /url: /cv
+            - text: "|"
+          - link "Contact" [ref=e21]:
+            - /url: /contact
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Researcher / Engineer / Creator
+        - paragraph [ref=e24]: Postdoc @ Stanford
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e34]:
+        - heading "Welcome to my research and development repository. ようこそ" [level=2] [ref=e36]:
+          - text: Welcome to my
+          - text: research and development
+          - text: repository.
+          - text: ようこそ
+        - paragraph [ref=e37]: Science is art.
+      - generic [ref=e39]:
+        - generic [ref=e40]: RESEARCHER
+        - generic [ref=e41]: ENGINEER
+        - generic [ref=e42]: CREATOR
+      - heading "Tong Shan. 单彤" [level=1] [ref=e46]
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - heading "ABOUT" [level=2] [ref=e50]
+        - paragraph [ref=e51]:
+          - generic [ref=e52]: I
+          - generic [ref=e53]: study
+          - generic [ref=e54]: how
+          - generic [ref=e55]: the
+          - generic [ref=e56]: brain
+          - generic [ref=e57]: listens
+          - generic [ref=e58]: "--"
+          - generic [ref=e59]: to
+          - generic [ref=e60]: speech,
+          - generic [ref=e61]: to
+          - generic [ref=e62]: music,
+          - generic [ref=e63]: to
+          - generic [ref=e64]: the
+          - generic [ref=e65]: world.
+          - generic [ref=e66]: As
+          - generic [ref=e67]: a
+          - generic [ref=e68]: Postdoctoral
+          - generic [ref=e69]: Research
+          - generic [ref=e70]: Scientist
+          - generic [ref=e71]: at
+          - generic [ref=e72]: Stanford,
+          - generic [ref=e73]: I
+          - generic [ref=e74]: combine
+          - generic [ref=e75]: neuroscience,
+          - generic [ref=e76]: signal
+          - generic [ref=e77]: processing,
+          - generic [ref=e78]: and
+          - generic [ref=e79]: machine
+          - generic [ref=e80]: learning
+          - generic [ref=e81]: to
+          - generic [ref=e82]: decode
+          - generic [ref=e83]: the
+          - generic [ref=e84]: neural
+          - generic [ref=e85]: pathways
+          - generic [ref=e86]: of
+          - generic [ref=e87]: hearing.
+          - generic [ref=e88]: When
+          - generic [ref=e89]: I'm
+          - generic [ref=e90]: not
+          - generic [ref=e91]: in
+          - generic [ref=e92]: the
+          - generic [ref=e93]: lab,
+          - generic [ref=e94]: I'm
+          - generic [ref=e95]: behind
+          - generic [ref=e96]: the
+          - generic [ref=e97]: console
+          - generic [ref=e98]: producing
+          - generic [ref=e99]: music
+          - generic [ref=e100]: and
+          - generic [ref=e101]: designing
+          - generic [ref=e102]: game
+          - generic [ref=e103]: audio.
+        - generic [ref=e104]:
+          - link "GitHub" [ref=e105]:
+            - /url: https://github.com/tongshan4869
+            - img [ref=e106]
+          - link "LinkedIn" [ref=e108]:
+            - /url: https://linkedin.com/in/tong-shan1994
+            - img [ref=e109]
+          - link "Google Scholar" [ref=e111]:
+            - /url: https://scholar.google.com/citations?user=eUVUjXwAAAAJ
+            - img [ref=e112]
+          - link "Music Portfolio" [ref=e114]:
+            - /url: https://teenagingcu.com/
+      - img "Profile photo" [ref=e116]
+    - generic [ref=e117]:
+      - generic [ref=e119]:
+        - generic [ref=e120]: PROJECTS · PROJECTS · PROJECTS · PROJECTS · PROJECTS · PROJECTS · PROJECTS · PROJECTS ·
+        - generic [ref=e121]: PROJECTS · PROJECTS · PROJECTS · PROJECTS · PROJECTS · PROJECTS · PROJECTS · PROJECTS ·
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - link "Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding Academic Research Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding Exploring pitch-timing interaction on the neural encoding of music" [ref=e126]:
+            - /url: /projects/chimeric-music
+            - generic [ref=e127]:
+              - img "Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding" [ref=e129]
+              - generic [ref=e132]: Academic Research
+              - generic [ref=e134]: Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding
+            - generic [ref=e135]:
+              - heading "Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding" [level=3] [ref=e136]
+              - paragraph [ref=e137]: Exploring pitch-timing interaction on the neural encoding of music
+          - link "Neural Encoding of Music and Speech Academic Research Neural Encoding of Music and Speech Neural Encoding of Music and Speech Investigating subcortical and cortical neural encoding of the acoustics of music and speech from human listeners" [ref=e140]:
+            - /url: /projects/neural-encoding-of-music-and-speech
+            - generic [ref=e141]:
+              - img "Neural Encoding of Music and Speech" [ref=e143]
+              - generic [ref=e146]: Academic Research
+              - generic [ref=e148]: Neural Encoding of Music and Speech
+            - generic [ref=e149]:
+              - heading "Neural Encoding of Music and Speech" [level=3] [ref=e150]
+              - paragraph [ref=e151]: Investigating subcortical and cortical neural encoding of the acoustics of music and speech from human listeners
+        - generic [ref=e152]:
+          - link "Speech-in-Noise Comprehension with DNN-Generated Talking Face Academic Research Speech-in-Noise Comprehension with DNN-Generated Talking Face Speech-in-Noise Comprehension with DNN-Generated Talking Face Evaluating how deep-neural-network-synthesized visual speech cues improve speech comprehension in noisy environments" [ref=e155]:
+            - /url: /projects/speech-in-noise-dnn-talking-face
+            - generic [ref=e156]:
+              - img "Speech-in-Noise Comprehension with DNN-Generated Talking Face" [ref=e158]
+              - generic [ref=e161]: Academic Research
+              - generic [ref=e163]: Speech-in-Noise Comprehension with DNN-Generated Talking Face
+            - generic [ref=e164]:
+              - heading "Speech-in-Noise Comprehension with DNN-Generated Talking Face" [level=3] [ref=e165]
+              - paragraph [ref=e166]: Evaluating how deep-neural-network-synthesized visual speech cues improve speech comprehension in noisy environments
+          - link "Musical Consonance Coding in Midbrain Neurons Academic Research Musical Consonance Coding in Midbrain Neurons Musical Consonance Coding in Midbrain Neurons Representation of consonance/dissonance of music intervals/chords by the midbrain neurons - A modeling work." [ref=e169]:
+            - /url: /projects/musical-consonance-coding-in-midbrain-neurons
+            - generic [ref=e170]:
+              - img "Musical Consonance Coding in Midbrain Neurons" [ref=e172]
+              - generic [ref=e175]: Academic Research
+              - generic [ref=e177]: Musical Consonance Coding in Midbrain Neurons
+            - generic [ref=e178]:
+              - heading "Musical Consonance Coding in Midbrain Neurons" [level=3] [ref=e179]
+              - paragraph [ref=e180]: Representation of consonance/dissonance of music intervals/chords by the midbrain neurons - A modeling work.
+        - link "View All Projects →" [ref=e182]:
+          - /url: /projects
+    - generic [ref=e183]:
+      - heading "PUBLICATIONS" [level=2] [ref=e184]
+      - generic [ref=e185]:
+        - link "Chimeric music reveals an interaction of pitch and time in electrophysiological signatures of music encoding Shan, Tong, Lalor, Edmund C, Maddox, Ross K Journal of Neuroscience 2026" [ref=e187]:
+          - /url: https://doi.org/10.1523/JNEUROSCI.2083-24.2025
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - heading "Chimeric music reveals an interaction of pitch and time in electrophysiological signatures of music encoding" [level=3] [ref=e190]
+              - paragraph [ref=e191]: Shan, Tong, Lalor, Edmund C, Maddox, Ross K
+            - generic [ref=e192]:
+              - paragraph [ref=e193]: Journal of Neuroscience
+              - paragraph [ref=e194]: "2026"
+        - link "Comparing methods for deriving the auditory brainstem response to continuous speech in human listeners Shan, Tong, Maddox, Ross K Imaging Neuroscience 2025" [ref=e196]:
+          - /url: https://doi.org/10.1162/IMAG.a.19
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - heading "Comparing methods for deriving the auditory brainstem response to continuous speech in human listeners" [level=3] [ref=e199]
+              - paragraph [ref=e200]: Shan, Tong, Maddox, Ross K
+            - generic [ref=e201]:
+              - paragraph [ref=e202]: Imaging Neuroscience
+              - paragraph [ref=e203]: "2025"
+        - link "Subcortical responses to music and speech are alike while cortical responses diverge Shan, Tong, Cappelloni, Madeline S, Maddox, Ross K Scientific Reports 2024" [ref=e205]:
+          - /url: https://doi.org/10.1038/s41598-023-50438-0
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - heading "Subcortical responses to music and speech are alike while cortical responses diverge" [level=3] [ref=e208]
+              - paragraph [ref=e209]: Shan, Tong, Cappelloni, Madeline S, Maddox, Ross K
+            - generic [ref=e210]:
+              - paragraph [ref=e211]: Scientific Reports
+              - paragraph [ref=e212]: "2024"
+        - link "Speech-in-noise comprehension is improved when viewing a deep-neural-network-generated talking face Shan, Tong, Wenner, Casper E, Xu, Chenliang, Duan, Zhiyao, Maddox, Ross K Trends in Hearing 2022" [ref=e214]:
+          - /url: https://doi.org/10.1177/23312165221136934
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - heading "Speech-in-noise comprehension is improved when viewing a deep-neural-network-generated talking face" [level=3] [ref=e217]
+              - paragraph [ref=e218]: Shan, Tong, Wenner, Casper E, Xu, Chenliang, Duan, Zhiyao, Maddox, Ross K
+            - generic [ref=e219]:
+              - paragraph [ref=e220]: Trends in Hearing
+              - paragraph [ref=e221]: "2022"
+      - link "View All Publications →" [ref=e223]:
+        - /url: /publications
+  - contentinfo [ref=e225]:
+    - generic [ref=e226]:
+      - generic [ref=e228]:
+        - heading "CONTACT" [level=2] [ref=e229]
+        - paragraph [ref=e230]:
+          - text: Get in touch —
+          - link "tongshan@stanford.edu" [ref=e231]:
+            - /url: mailto:tongshan@stanford.edu
+      - generic [ref=e233]:
+        - link "GitHub" [ref=e235]:
+          - /url: https://github.com/tongshan4869
+          - img [ref=e236]
+          - generic [ref=e238]: GitHub
+        - link "LinkedIn" [ref=e240]:
+          - /url: https://linkedin.com/in/tong-shan1994
+          - img [ref=e241]
+          - generic [ref=e243]: LinkedIn
+        - link "Google Scholar" [ref=e245]:
+          - /url: https://scholar.google.com/citations?user=eUVUjXwAAAAJ
+          - img [ref=e246]
+          - generic [ref=e248]: Google Scholar
+        - link "Medium" [ref=e250]:
+          - /url: https://medium.com/@cuinrnd
+          - img [ref=e251]
+          - generic [ref=e253]: Medium
+        - link "Substack" [ref=e255]:
+          - /url: https://substack.com/@cuinrnd
+          - img [ref=e256]
+          - generic [ref=e258]: Substack
+        - link "X" [ref=e260]:
+          - /url: https://x.com/cuinmusic
+          - img [ref=e261]
+          - generic [ref=e263]: X
+    - generic [ref=e266]: ©2026 Tong Shan

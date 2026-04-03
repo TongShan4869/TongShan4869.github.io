@@ -75,6 +75,7 @@ export default function ProjectCard({
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
           className="block relative cursor-pointer group"
+          data-cursor="view"
         >
           {cover && (
             <div className="relative aspect-[4/3] overflow-hidden rounded-xl">

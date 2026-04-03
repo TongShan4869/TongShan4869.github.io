@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import ScrollingMarquee from "@/components/ScrollingMarquee";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import PublicationEntry from "@/components/PublicationEntry";
 import { getPublicationsByYear } from "@/lib/publications";
@@ -26,11 +25,13 @@ export default function PublicationsPage() {
 
   return (
     <main>
-      <section className="pt-32 md:pt-40">
-        <ScrollingMarquee text="PUBLICATIONS" />
+      <section className="pt-32 md:pt-40 px-8 md:px-16 lg:px-16">
+        <h1 className="text-7xl md:text-9xl font-display font-bold tracking-tightest" style={{ color: "#ffffff" }}>
+          PUBLICATIONS
+        </h1>
       </section>
 
-      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-24 max-w-6xl mx-auto">
+      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-16">
         {years.map((year) => {
           const pubs = pubsByYear.get(year)!;
           return (
@@ -38,12 +39,13 @@ export default function PublicationsPage() {
               <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tightest text-white mb-4 border-b border-white/10 pb-3">
                 {year}
               </h2>
-              <div className="divide-y divide-white/5">
+              <div className="space-y-4">
                 {pubs.map((pub, i) => (
                   <PublicationEntry
                     key={pub.key}
                     publication={pub}
                     delay={i * 0.08}
+                    hover={false}
                   />
                 ))}
               </div>
@@ -52,7 +54,7 @@ export default function PublicationsPage() {
         })}
       </section>
 
-      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-24 max-w-6xl mx-auto border-t border-white/10">
+      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-16 border-t border-white/10">
         <AnimateOnScroll>
           <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tightest text-white mb-8">
             Conference Presentations

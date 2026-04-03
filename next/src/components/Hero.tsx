@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section className="relative flex flex-col justify-end overflow-hidden min-h-[80vh] pt-12 md:pt-16">
       {/* Background waveform — fixed so it stays while page scrolls */}
-      <div className="fixed inset-0 z-0">
+      <div className="fixed inset-0 z-0 pointer-events-none">
         <HeroWaveform />
         {/* Dark overlay to keep text readable */}
         <div className="absolute inset-0 bg-black/30" />

@@ -1,5 +1,4 @@
 import { getSiteSettings } from "@/lib/content";
-import ScrollingMarquee from "@/components/ScrollingMarquee";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import AnimatedDivider from "@/components/AnimatedDivider";
 import ContactForm from "@/components/ContactForm";
@@ -76,10 +75,14 @@ export default async function ContactPage() {
 
   return (
     <main className="pt-32 pb-24">
-      <ScrollingMarquee text="CONTACT" />
+      <section className="px-8 md:px-16 lg:px-16 mb-8">
+        <h1 className="text-7xl md:text-9xl font-display font-bold tracking-tightest" style={{ color: "#ffffff" }}>
+          CONTACT
+        </h1>
+      </section>
 
       {/* Email */}
-      <section className="max-w-3xl mx-auto px-6 py-16">
+      <section className="px-8 md:px-16 lg:px-16 py-16">
         <AnimateOnScroll>
           <p className="text-xs tracking-widest uppercase text-secondary mb-3">
             Email
@@ -96,7 +99,7 @@ export default async function ContactPage() {
       <AnimatedDivider className="max-w-3xl mx-auto" />
 
       {/* Social Links */}
-      <section className="max-w-3xl mx-auto px-6 py-16">
+      <section className="px-8 md:px-16 lg:px-16 py-16">
         <AnimateOnScroll>
           <p className="text-xs tracking-widest uppercase text-secondary mb-6">
             Find me online
@@ -127,7 +130,7 @@ export default async function ContactPage() {
       {formspreeId && (
         <>
           <AnimatedDivider className="max-w-3xl mx-auto" />
-          <section className="max-w-3xl mx-auto px-6 py-16">
+          <section className="px-8 md:px-16 lg:px-16 py-16">
             <AnimateOnScroll>
               <p className="text-xs tracking-widest uppercase text-secondary mb-8">
                 Send a message

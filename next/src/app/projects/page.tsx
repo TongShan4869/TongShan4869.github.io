@@ -1,5 +1,4 @@
 import { getAllProjects, getAllProjectTags } from "@/lib/content";
-import ScrollingMarquee from "@/components/ScrollingMarquee";
 import ProjectFilter from "@/components/ProjectFilter";
 import type { Metadata } from "next";
 
@@ -24,9 +23,13 @@ export default async function ProjectsPage() {
 
   return (
     <>
-      <ScrollingMarquee text="PROJECTS" />
+      <section className="pt-32 md:pt-40 px-8 md:px-16 lg:px-16">
+        <h1 className="text-7xl md:text-9xl font-display font-bold tracking-tightest" style={{ color: "#ffffff" }}>
+          PROJECTS
+        </h1>
+      </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-16 md:py-24">
+      <section className="px-8 md:px-16 lg:px-16 py-16 md:py-24">
         <ProjectFilter allTags={allTags} projects={serialized} />
       </section>
     </>

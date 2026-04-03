@@ -19,29 +19,37 @@ export default function PublicationHighlights({
         PUBLICATIONS
       </h2>
 
-      <div className="space-y-4 relative z-10">
+      <div className="relative z-10">
         {items.map((pub, i) => (
           <AnimateOnScroll key={pub.key} delay={i * 0.15}>
             <a
               href={pub.doi ? `https://doi.org/${pub.doi}` : pub.html ?? pub.url ?? "#"}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block bg-white/5 hover:bg-white rounded-2xl px-8 py-6 transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] cursor-pointer hover:scale-[1.02]"
+              className="group flex items-center bg-transparent hover:bg-white rounded-xl px-6 min-h-[120px] transition-all duration-1000 ease-[cubic-bezier(0.32,0.72,0,1)] cursor-pointer hover:scale-[1.01]"
+              data-cursor="view"
             >
-              <div className="flex items-start gap-6">
+              <div className="flex items-center justify-between gap-6 w-full">
                 <div className="flex-1 min-w-0">
-                  <h3 className="text-white group-hover:text-black font-display font-bold text-lg tracking-tight leading-snug transition-colors duration-700">
+                  <h3 className="text-white group-hover:text-black font-display font-bold text-lg md:text-xl tracking-tight leading-snug transition-colors duration-1000">
                     {pub.title}
                   </h3>
-                  <p className="text-white/50 group-hover:text-black/50 text-sm mt-1 transition-colors duration-700">
-                    {pub.authors.join(", ")}
+                  <p className="text-base mt-1 transition-colors duration-1000">
+                    {pub.authors.map((author, j) => (
+                      <span key={j}>
+                        {j > 0 && ", "}
+                        <span className={/\bShan\b/i.test(author) ? "text-accent group-hover:text-black font-medium" : "text-white group-hover:text-black/50"}>
+                          {author}
+                        </span>
+                      </span>
+                    ))}
                   </p>
                 </div>
-                <div className="hidden md:block text-right flex-shrink-0 pt-1">
-                  <p className="text-white/50 group-hover:text-black/60 text-sm font-medium transition-colors duration-700">
+                <div className="hidden md:block text-right flex-shrink-0 ml-auto">
+                  <p className="text-white/50 group-hover:text-black/60 text-base font-medium transition-colors duration-1000">
                     {pub.journal}
                   </p>
-                  <p className="text-white/30 group-hover:text-black/40 text-sm transition-colors duration-700">
+                  <p className="text-white/30 group-hover:text-black/40 text-base transition-colors duration-1000">
                     {pub.year > 0 ? pub.year : ""}
                   </p>
                 </div>

@@ -4,7 +4,7 @@
       "degree": "Ph.D.",
       "institution": "University of Rochester, USA",
       "year": "2018-2024",
-      "description": "Biomedical Engineering - Neuroscience/NeuroEngineering. Adviser: Ross K. Maddox. Thesis: Neural Encoding of Musical Acoustics and Higher Order Features Across the Human Auditory System"
+      "description": "Biomedical Engineering - Neuroscience/NeuroEngineering; Adviser: Ross K. Maddox; Thesis: Neural Encoding of Musical Acoustics and Higher Order Features Across the Human Auditory System"
     },
     {
       "degree": "M.Sc.",
@@ -36,31 +36,31 @@
       "title": "Postdoctoral Research Scientist",
       "institution": "Stanford University, Department of Psychiatry & Behavioral Sciences, Stanford Medicine",
       "year": "2024-Present",
-      "description": "Lead independent and collaborative research on neural mechanisms of speech communication and social interaction. Conduct NIH-funded studies on speaker-listener brain coupling and auditory temporal integration during naturalistic communication in children with autism spectrum disorder (ASD). Initiated and developed a new EEG research program for pediatric auditory neuroscience."
+      "description": "Lead independent and collaborative research on neural mechanisms of speech communication and social interaction; Conduct NIH-funded studies on speaker-listener brain coupling and auditory temporal integration during naturalistic communication in children with autism spectrum disorder (ASD); Initiated and developed a new EEG research program for pediatric auditory neuroscience"
     },
     {
       "title": "Research Scientist Intern - Audio Team",
       "institution": "Meta - Reality Labs Research, USA",
       "year": "2023",
-      "description": "Led end-to-end research project to improve auditory experiences in AR/VR wearable devices through neurophysiological signal analysis on prototype hardware. Independently designed and executed the full experiment pipeline—stimulus design, data collection, signal processing, and ML-based data analysis—to evaluate hearing health in real-world environments. Developed Python pipelines for processing noisy neurophysiological data from wearable sensors."
+      "description": "Led end-to-end research project to improve auditory experiences in AR/VR wearable devices through neurophysiological signal analysis on prototype hardware; Independently designed and executed the full experiment pipeline—stimulus design, data collection, signal processing, and ML-based data analysis—to evaluate hearing health in real-world environments; Developed Python pipelines for processing noisy neurophysiological data from wearable sensors"
     },
     {
       "title": "Graduate Researcher",
       "institution": "University of Rochester, USA",
       "year": "2018-2024",
-      "description": "Developed novel computational methods to derive human auditory brainstem responses from continuous naturalistic stimuli. Engineered chimeric music stimuli and applied EEG/ERP/TRF and ML decoding to investigate neural encoding of pitch-timing interactions in music cognition. Designed and evaluated speech-in-noise studies with DNN-generated talking face stimuli."
+      "description": "Developed novel computational methods to derive human auditory brainstem responses from continuous naturalistic stimuli; Engineered chimeric music stimuli and applied EEG/ERP/TRF and ML decoding to investigate neural encoding of pitch-timing interactions in music cognition; Designed and evaluated speech-in-noise studies with DNN-generated talking face stimuli"
     },
     {
       "title": "Research Assistant",
       "institution": "Huaxi MR Research Center (HMRRC), Sichuan University, China",
       "year": "2016-2017",
-      "description": "Gathered, analyzed, and processed data in functional MRI & Diffusion Tensor Imaging (DTI). Conducted research quantifying white matter changes through DTI in earthquake survivors and healthy controls."
+      "description": "Gathered, analyzed, and processed data in functional MRI & Diffusion Tensor Imaging (DTI); Conducted research quantifying white matter changes through DTI in earthquake survivors and healthy controls"
     },
     {
       "title": "Teaching Assistant",
       "institution": "University of Rochester, USA",
       "year": "2020",
-      "description": "Provided support to courses including BME 230: Signals, Systems & Imaging and BME 220: Biomedical Computation & Statistics."
+      "description": "Provided support to courses including BME 230: Signals, Systems & Imaging and BME 220: Biomedical Computation & Statistics"
     }
   ],
   "awards": [

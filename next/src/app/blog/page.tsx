@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import ScrollingMarquee from "@/components/ScrollingMarquee";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import BlogPostCard from "@/components/BlogPostCard";
 import { StaggeredGrid, StaggeredGridItem } from "@/components/StaggeredGrid";
@@ -15,11 +14,13 @@ export default async function BlogPage() {
 
   return (
     <main>
-      <section className="pt-32 md:pt-40">
-        <ScrollingMarquee text="BLOG" />
+      <section className="pt-32 md:pt-40 px-8 md:px-16 lg:px-16">
+        <h1 className="text-7xl md:text-9xl font-display font-bold tracking-tightest" style={{ color: "#ffffff" }}>
+          BLOG
+        </h1>
       </section>
 
-      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-24 max-w-6xl">
+      <section className="py-16 md:py-24 px-8 md:px-16 lg:px-16">
         {posts.length === 0 ? (
           <AnimateOnScroll>
             <div className="text-center py-20 md:py-32">

@@ -36,9 +36,11 @@ export default function CVTimeline({ entries }: { entries: CVTimelineEntry[] }) 
               </h3>
               <p className="text-sm text-secondary mt-0.5">{entry.institution}</p>
               {entry.description && (
-                <p className="text-sm text-secondary/70 mt-2 leading-relaxed">
-                  {entry.description}
-                </p>
+                <ul className="text-sm text-secondary/70 mt-2 leading-relaxed space-y-1 list-disc list-outside pl-4">
+                  {entry.description.split(/;\s*/).filter(s => s.trim()).map((sentence, j) => (
+                    <li key={j}>{sentence.replace(/\.$/, '').trim()}</li>
+                  ))}
+                </ul>
               )}
             </div>
           </motion.div>

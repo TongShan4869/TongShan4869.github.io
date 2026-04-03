@@ -62,7 +62,7 @@ export default function CustomCursor() {
   }
 
   const hasText = cursorText.length > 0;
-  const size = hasText ? 80 : hovered ? 32 : 24;
+  const size = hasText ? 56 : hovered ? 32 : 24;
 
   return (
     <motion.div
@@ -76,9 +76,9 @@ export default function CustomCursor() {
       }}
       transition={{
         type: "spring",
-        stiffness: 500,
-        damping: 30,
-        mass: 0.5,
+        stiffness: 200,
+        damping: 25,
+        mass: 0.8,
       }}
     >
       <div className="w-full h-full rounded-full bg-white flex items-center justify-center">

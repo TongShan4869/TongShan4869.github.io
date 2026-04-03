@@ -1,5 +1,4 @@
 import { getCV, getSiteSettings } from "@/lib/content";
-import ScrollingMarquee from "@/components/ScrollingMarquee";
 import CVTimeline from "@/components/CVTimeline";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import AnimatedDivider from "@/components/AnimatedDivider";
@@ -36,8 +35,11 @@ export default async function CVPage() {
 
   return (
     <main className="pt-32 pb-24">
-      {/* PDF Download */}
-      <section className="max-w-5xl mx-auto px-6 mb-8">
+      {/* Page Heading + PDF Download */}
+      <section className="px-8 md:px-16 lg:px-16 mb-8">
+        <h1 className="text-7xl md:text-9xl font-display font-bold tracking-tightest mb-8" style={{ color: "#ffffff" }}>
+          CV
+        </h1>
         <AnimateOnScroll>
           <a
             href={cvPdfPath}
@@ -66,24 +68,24 @@ export default async function CVPage() {
       </section>
 
       {/* Education */}
-      <ScrollingMarquee text="EDUCATION" />
-      <section className="max-w-5xl mx-auto px-6 py-16">
+      <section className="px-8 md:px-16 lg:px-16 py-16">
+        <AnimateOnScroll><h2 className="text-3xl md:text-5xl font-display font-bold tracking-tightest mb-8" style={{ color: "#ffffff" }}>EDUCATION</h2></AnimateOnScroll>
         <CVTimeline entries={education} />
       </section>
 
-      <AnimatedDivider className="max-w-5xl mx-auto" />
+      <AnimatedDivider className="mx-8 md:mx-16 lg:mx-16" />
 
       {/* Experience */}
-      <ScrollingMarquee text="EXPERIENCE" />
-      <section className="max-w-5xl mx-auto px-6 py-16">
+      <section className="px-8 md:px-16 lg:px-16 py-16">
+        <AnimateOnScroll><h2 className="text-3xl md:text-5xl font-display font-bold tracking-tightest mb-8" style={{ color: "#ffffff" }}>EXPERIENCE</h2></AnimateOnScroll>
         <CVTimeline entries={experience} />
       </section>
 
-      <AnimatedDivider className="max-w-5xl mx-auto" />
+      <AnimatedDivider className="mx-8 md:mx-16 lg:mx-16" />
 
       {/* Awards */}
-      <ScrollingMarquee text="AWARDS" />
-      <section className="max-w-5xl mx-auto px-6 py-16">
+      <section className="px-8 md:px-16 lg:px-16 py-16">
+        <AnimateOnScroll><h2 className="text-3xl md:text-5xl font-display font-bold tracking-tightest mb-8" style={{ color: "#ffffff" }}>AWARDS</h2></AnimateOnScroll>
         <div className="flex flex-col">
           {awards.map((award, i) => (
             <AnimateOnScroll key={`${award.year}-${award.title}`} delay={i * 0.08}>
@@ -98,11 +100,11 @@ export default async function CVPage() {
         </div>
       </section>
 
-      <AnimatedDivider className="max-w-5xl mx-auto" />
+      <AnimatedDivider className="mx-8 md:mx-16 lg:mx-16" />
 
       {/* Skills */}
-      <ScrollingMarquee text="SKILLS" />
-      <section className="max-w-5xl mx-auto px-6 py-16">
+      <section className="px-8 md:px-16 lg:px-16 py-16">
+        <AnimateOnScroll><h2 className="text-3xl md:text-5xl font-display font-bold tracking-tightest mb-8" style={{ color: "#ffffff" }}>SKILLS</h2></AnimateOnScroll>
         <AnimateOnScroll>
           <div className="flex flex-wrap gap-3">
             {skills.map((skill) => (
@@ -117,11 +119,11 @@ export default async function CVPage() {
         </AnimateOnScroll>
       </section>
 
-      <AnimatedDivider className="max-w-5xl mx-auto" />
+      <AnimatedDivider className="mx-8 md:mx-16 lg:mx-16" />
 
       {/* Memberships */}
-      <ScrollingMarquee text="MEMBERSHIPS" />
-      <section className="max-w-5xl mx-auto px-6 py-16">
+      <section className="px-8 md:px-16 lg:px-16 py-16">
+        <AnimateOnScroll><h2 className="text-3xl md:text-5xl font-display font-bold tracking-tightest mb-8" style={{ color: "#ffffff" }}>MEMBERSHIPS</h2></AnimateOnScroll>
         <div className="flex flex-col gap-2">
           {memberships.map((m, i) => (
             <AnimateOnScroll key={m.name} delay={i * 0.08}>
