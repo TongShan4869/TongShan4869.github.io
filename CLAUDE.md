@@ -10,9 +10,10 @@ Personal academic portfolio site for Tong Shan, deployed at https://tongshan4869
   - `src/app/` — App Router pages: home, blog, contact, cv, projects, publications
   - `src/app/api/` and `src/app/keystatic/` — Dev-only Keystatic CMS routes (excluded from production build)
   - `src/components/` — React components
-  - `src/content/` — Content files (papers.bib, projects as .mdoc, singletons as JSON)
+  - `src/content/` — Content files (papers.bib, projects as .mdoc, blog posts as .mdoc, singletons as JSON)
   - `src/lib/` — Utility functions
   - `public/` — Static assets (images, fonts)
+  - `public/images/posts/` — Blog post images (cover images and inline images)
 - `.github/workflows/nextjs-deploy.yml` — CI/CD workflow
 
 ## Tech Stack
@@ -56,3 +57,12 @@ npm run lint    # ESLint
 - **Publication cards** (homepage): Transparent background, `hover:bg-white` with text color inversion. Author "Shan" highlighted in accent color. Cards link directly to DOI.
 - **Publication entries** (publications page): No hover effect (`hover={false}`), journal/year shown below authors, larger title font (`text-lg md:text-xl`).
 - **CV content descriptions**: Use semicolons (`;`) as separators in JSON — the `CVTimeline` component splits on semicolons to render bullet points. Do not use periods as separators (they break on abbreviations like "K. Maddox").
+
+## Blog Posts
+
+- Blog posts live in `src/content/posts/<slug>/index.mdoc` using Markdoc format with YAML frontmatter.
+- Frontmatter fields: `title`, `date` (YYYY-MM-DD), `description`, `tags` (array), `cover` (image path).
+- Cover images go in `public/images/posts/` and are referenced as `/images/posts/<filename>`.
+- Inline images for a post go in `public/images/posts/<slug>/` and are referenced as `/images/posts/<slug>/<filename>`.
+- Posts are rendered via Markdoc's HTML renderer with `prose prose-invert` styling.
+- Posts are sorted by date (newest first) on the blog listing page.

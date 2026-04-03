@@ -123,6 +123,19 @@ export default async function ContactPage() {
               </AnimateOnScroll>
             );
           })}
+          <AnimateOnScroll delay={socialLinks.length * 0.06}>
+            <a
+              href="https://cuinmusic.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2.5 px-5 py-3 rounded-full border border-white/15 text-sm text-white hover:bg-accent hover:border-accent hover:text-black transition-colors"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" />
+              </svg>
+              Music Portfolio
+            </a>
+          </AnimateOnScroll>
         </div>
       </section>
 

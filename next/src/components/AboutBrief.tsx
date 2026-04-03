@@ -108,7 +108,7 @@ export default function AboutBrief({ bio, photo }: AboutBriefProps) {
             </a>
             {/* Music Portfolio */}
             <a
-              href="https://teenagingcu.com/"
+              href="https://cuinmusic.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-accent transition-colors text-sm font-display font-semibold tracking-tight border border-white/30 px-4 py-1.5 rounded-full hover:border-accent"
