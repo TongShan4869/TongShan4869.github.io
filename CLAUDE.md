@@ -48,6 +48,11 @@ npm run lint    # ESLint
 
 ## Design & Animation Guidelines
 
-- **Section headings** should always be fully white (`#ffffff`). Do not wrap them in `AnimateOnScroll` or any opacity-based scroll animation — it makes them appear grey. Use static rendering or inline `style={{ color: "#ffffff" }}` if needed.
-- **Hover/transition speeds** should be slow and smooth to match the project card style: use `duration-700` with `ease-[cubic-bezier(0.32,0.72,0,1)]`, not the default `duration-300`.
-- **Custom cursor** uses `mix-blend-difference`, which inverts colors — avoid pure white hover backgrounds in interactive elements as they become invisible under the cursor. Use `bg-white/5` default with `hover:bg-white` for cards.
+- **Page headings** use static `h1` with `text-7xl md:text-9xl font-display font-bold tracking-tightest` and inline `style={{ color: "#ffffff" }}`. No `ScrollingMarquee` — use plain headings on all pages.
+- **Section headings** (e.g., CV subsections) use `h2` with `text-3xl md:text-5xl` wrapped in `AnimateOnScroll` with inline `style={{ color: "#ffffff" }}`.
+- **Page layout padding**: Use `px-8 md:px-16 lg:px-16` consistently across pages. No `max-w` centering — content goes edge-to-edge with padding.
+- **Hover/transition speeds** should be slow and smooth: use `duration-1000` for publication cards, `duration-700` for other interactions, with `ease-[cubic-bezier(0.32,0.72,0,1)]`.
+- **Custom cursor**: Uses `mix-blend-difference` with spring physics (`stiffness: 200, damping: 25, mass: 0.8`). Add `data-cursor="view"` to clickable cards (projects, publications) for the enlarged "View" cursor effect.
+- **Publication cards** (homepage): Transparent background, `hover:bg-white` with text color inversion. Author "Shan" highlighted in accent color. Cards link directly to DOI.
+- **Publication entries** (publications page): No hover effect (`hover={false}`), journal/year shown below authors, larger title font (`text-lg md:text-xl`).
+- **CV content descriptions**: Use semicolons (`;`) as separators in JSON — the `CVTimeline` component splits on semicolons to render bullet points. Do not use periods as separators (they break on abbreviations like "K. Maddox").
