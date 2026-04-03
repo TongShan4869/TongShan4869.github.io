@@ -15,7 +15,7 @@ export default function PublicationHighlights({
 
   return (
     <section className="py-20 md:py-32 px-8 md:px-16 lg:px-24">
-      <h2 className="text-5xl md:text-7xl font-display font-bold tracking-tightest mb-12" style={{ color: "#ffffff" }}>
+      <h2 className="text-7xl md:text-9xl font-display font-bold tracking-tightest mb-12 relative z-10" style={{ color: "#ffffff" }}>
         PUBLICATIONS
       </h2>
 

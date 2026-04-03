@@ -60,6 +60,12 @@ export default function AboutBrief({ bio, photo }: AboutBriefProps) {
             ABOUT
           </motion.h2>
 
+          <div className="bg-white text-black py-3 px-6 -mx-6 md:-mx-8 lg:-mx-12 lg:pl-12 mb-8">
+            <p className="font-display font-bold text-lg md:text-xl tracking-tight">
+              Hey there! I am Tong (aka. Cu).
+            </p>
+          </div>
+
           <ScrollRevealText
             className="text-[clamp(1rem,1.6vw,1.4rem)] font-display font-medium leading-[1.4] tracking-tight text-white"
             segments={bioSegments}
