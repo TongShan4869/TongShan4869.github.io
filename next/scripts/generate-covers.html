@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { margin: 0; background: #000; }
+  .cover {
+    width: 1200px;
+    height: 675px;
+    background: #0a0a0a;
+    position: relative;
+    overflow: hidden;
+    display: none;
+  }
+  .cover.active { display: block; }
+</style>
+</head>
+<body>
+
+<!-- 1. Deriving ABR from Naturalistic Sounds -->
+<div class="cover" id="neural-encoding">
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#0a0a0a"/>
+  <!-- Subtle grid -->
+  <g opacity="0.06">
+    <line x1="0" y1="337" x2="1200" y2="337" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="0" y1="237" x2="1200" y2="237" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="0" y1="437" x2="1200" y2="437" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="0" y1="137" x2="1200" y2="137" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="0" y1="537" x2="1200" y2="537" stroke="#4EC5D4" stroke-width="0.5"/>
+  </g>
+  <!-- ABR waveform - speech -->
+  <path d="M100,337 C150,337 200,340 250,335 C300,330 320,342 340,337 C360,332 380,345 400,330 C420,315 430,290 440,260 C450,230 455,200 460,240 C465,280 470,350 475,380 C480,410 485,370 490,337 C500,310 520,337 600,337 C700,337 800,337 900,337 C1000,337 1050,337 1100,337" fill="none" stroke="#4EC5D4" stroke-width="2.5" opacity="0.9"/>
+  <!-- ABR waveform - music (similar, overlapping) -->
+  <path d="M100,337 C150,338 200,341 250,336 C300,331 320,343 340,338 C360,333 380,346 400,331 C420,316 430,292 440,262 C450,232 455,203 460,242 C465,282 470,352 475,382 C480,412 485,372 490,338 C500,312 520,338 600,338 C700,338 800,338 900,338 C1000,338 1050,338 1100,338" fill="none" stroke="#4EC5D4" stroke-width="2.5" opacity="0.4"/>
+  <!-- Wave labels -->
+  <text x="345" y="320" fill="#4EC5D4" opacity="0.5" font-family="monospace" font-size="11">I</text>
+  <text x="420" y="248" fill="#4EC5D4" opacity="0.5" font-family="monospace" font-size="11">III</text>
+  <text x="453" y="190" fill="#4EC5D4" opacity="0.5" font-family="monospace" font-size="11">V</text>
+  <!-- Ear/cochlea abstract shape -->
+  <circle cx="950" cy="337" r="120" fill="none" stroke="#4EC5D4" stroke-width="1" opacity="0.08"/>
+  <circle cx="950" cy="337" r="80" fill="none" stroke="#4EC5D4" stroke-width="1" opacity="0.12"/>
+  <path d="M950,257 C1010,280 1030,337 1010,394 C990,420 960,430 940,420" fill="none" stroke="#4EC5D4" stroke-width="1.5" opacity="0.15"/>
+  <!-- Time axis -->
+  <line x1="100" y1="500" x2="600" y2="500" stroke="#4EC5D4" stroke-width="0.5" opacity="0.2"/>
+  <text x="340" y="520" fill="#4EC5D4" opacity="0.2" font-family="monospace" font-size="10">ms</text>
+</svg>
+</div>
+
+<!-- 2. Chimeric Music -->
+<div class="cover" id="chimeric-music">
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#0a0a0a"/>
+  <!-- Two interleaving melody lines -->
+  <!-- Melody A - pitch contour -->
+  <path d="M80,400 L160,350 L240,370 L320,280 L400,300 L480,250 L560,270 L640,220 L720,260 L800,200 L880,240 L960,180 L1040,220 L1120,190" fill="none" stroke="#4EC5D4" stroke-width="2" opacity="0.8"/>
+  <!-- Melody B - pitch contour -->
+  <path d="M80,450 L160,480 L240,420 L320,460 L400,430 L480,470 L560,400 L640,440 L720,410 L800,450 L880,380 L960,420 L1040,390 L1120,430" fill="none" stroke="#4EC5D4" stroke-width="2" opacity="0.3"/>
+  <!-- Vertical beat lines -->
+  <g opacity="0.1" stroke="#4EC5D4" stroke-width="1">
+    <line x1="80" y1="150" x2="80" y2="550"/>
+    <line x1="240" y1="150" x2="240" y2="550"/>
+    <line x1="400" y1="150" x2="400" y2="550"/>
+    <line x1="560" y1="150" x2="560" y2="550"/>
+    <line x1="720" y1="150" x2="720" y2="550"/>
+    <line x1="880" y1="150" x2="880" y2="550"/>
+    <line x1="1040" y1="150" x2="1040" y2="550"/>
+  </g>
+  <!-- Swap arrows -->
+  <g opacity="0.15">
+    <path d="M300,340 C320,310 360,310 380,340" fill="none" stroke="#4EC5D4" stroke-width="1.5"/>
+    <path d="M300,490 C320,520 360,520 380,490" fill="none" stroke="#4EC5D4" stroke-width="1.5"/>
+    <polygon points="378,336 384,344 374,344" fill="#4EC5D4"/>
+    <polygon points="378,494 384,486 374,486" fill="#4EC5D4"/>
+  </g>
+  <g opacity="0.15">
+    <path d="M700,340 C720,310 760,310 780,340" fill="none" stroke="#4EC5D4" stroke-width="1.5"/>
+    <path d="M700,490 C720,520 760,520 780,490" fill="none" stroke="#4EC5D4" stroke-width="1.5"/>
+    <polygon points="778,336 784,344 774,344" fill="#4EC5D4"/>
+    <polygon points="778,494 784,486 774,486" fill="#4EC5D4"/>
+  </g>
+  <!-- Note dots on melody A -->
+  <g fill="#4EC5D4" opacity="0.6">
+    <circle cx="80" cy="400" r="4"/>
+    <circle cx="240" cy="370" r="4"/>
+    <circle cx="400" cy="300" r="4"/>
+    <circle cx="560" cy="270" r="4"/>
+    <circle cx="720" cy="260" r="4"/>
+    <circle cx="880" cy="240" r="4"/>
+    <circle cx="1040" cy="220" r="4"/>
+  </g>
+</svg>
+</div>
+
+<!-- 3. Musical Consonance Coding -->
+<div class="cover" id="consonance-coding">
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#0a0a0a"/>
+  <!-- Frequency spectrum bars (midbrain neurons firing) -->
+  <g opacity="0.15">
+    <rect x="100" y="200" width="2" height="275" fill="#4EC5D4"/>
+    <rect x="140" y="250" width="2" height="225" fill="#4EC5D4"/>
+    <rect x="180" y="180" width="2" height="295" fill="#4EC5D4"/>
+    <rect x="220" y="300" width="2" height="175" fill="#4EC5D4"/>
+    <rect x="260" y="220" width="2" height="255" fill="#4EC5D4"/>
+    <rect x="300" y="270" width="2" height="205" fill="#4EC5D4"/>
+  </g>
+  <!-- Consonant interval - two harmonically aligned sine waves -->
+  <path d="M400,337 C430,280 460,280 490,337 C520,394 550,394 580,337 C610,280 640,280 670,337 C700,394 730,394 760,337 C790,280 820,280 850,337 C880,394 910,394 940,337 C970,280 1000,280 1030,337 C1060,394 1090,394 1120,337" fill="none" stroke="#4EC5D4" stroke-width="2" opacity="0.7"/>
+  <path d="M400,337 C420,290 440,290 460,337 C480,384 500,384 520,337 C540,290 560,290 580,337 C600,384 620,384 640,337 C660,290 680,290 700,337 C720,384 740,384 760,337 C780,290 800,290 820,337 C840,384 860,384 880,337 C900,290 920,290 940,337 C960,384 980,384 1000,337 C1020,290 1040,290 1060,337 C1080,384 1100,384 1120,337" fill="none" stroke="#4EC5D4" stroke-width="1.5" opacity="0.35"/>
+  <!-- Ratio label -->
+  <text x="750" y="540" fill="#4EC5D4" opacity="0.15" font-family="monospace" font-size="48" font-weight="bold">3:2</text>
+  <!-- Brain stem abstract -->
+  <circle cx="200" cy="337" r="60" fill="none" stroke="#4EC5D4" stroke-width="1" opacity="0.1"/>
+  <circle cx="200" cy="337" r="30" fill="none" stroke="#4EC5D4" stroke-width="1" opacity="0.15"/>
+  <circle cx="200" cy="337" r="8" fill="#4EC5D4" opacity="0.2"/>
+</svg>
+</div>
+
+<!-- 4. Speech in Noise DNN -->
+<div class="cover" id="speech-in-noise">
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#0a0a0a"/>
+  <!-- Noise texture - random dots -->
+  <g opacity="0.06" fill="#4EC5D4">
+    <circle cx="50" cy="100" r="1.5"/><circle cx="120" cy="80" r="1"/><circle cx="200" cy="150" r="1.5"/>
+    <circle cx="80" cy="200" r="1"/><circle cx="300" cy="120" r="1.5"/><circle cx="180" cy="300" r="1"/>
+    <circle cx="400" cy="90" r="1.5"/><circle cx="350" cy="250" r="1"/><circle cx="500" cy="180" r="1.5"/>
+    <circle cx="450" cy="350" r="1"/><circle cx="600" cy="100" r="1.5"/><circle cx="550" cy="280" r="1"/>
+    <circle cx="700" cy="150" r="1.5"/><circle cx="650" cy="400" r="1"/><circle cx="800" cy="200" r="1.5"/>
+    <circle cx="750" cy="300" r="1"/><circle cx="900" cy="120" r="1.5"/><circle cx="850" cy="380" r="1"/>
+    <circle cx="1000" cy="180" r="1.5"/><circle cx="950" cy="250" r="1"/><circle cx="1100" cy="130" r="1.5"/>
+    <circle cx="150" cy="450" r="1"/><circle cx="250" cy="500" r="1.5"/><circle cx="350" cy="480" r="1"/>
+    <circle cx="450" cy="520" r="1.5"/><circle cx="550" cy="460" r="1"/><circle cx="650" cy="550" r="1.5"/>
+    <circle cx="750" cy="500" r="1"/><circle cx="850" cy="530" r="1.5"/><circle cx="950" cy="470" r="1"/>
+    <circle cx="1050" cy="510" r="1.5"/><circle cx="1100" cy="450" r="1"/><circle cx="130" cy="580" r="1.5"/>
+  </g>
+  <!-- Speech waveform emerging from noise -->
+  <path d="M100,337 C120,337 140,335 160,330 C180,325 190,310 200,295 C210,280 215,290 220,310 C225,330 230,355 235,370 C240,385 245,375 250,355 C255,335 260,320 265,310 C270,300 275,295 280,300 C285,305 290,320 295,337" fill="none" stroke="#4EC5D4" stroke-width="1" opacity="0.2"/>
+  <!-- Face silhouette (simple) -->
+  <ellipse cx="600" cy="300" rx="100" ry="130" fill="none" stroke="#4EC5D4" stroke-width="1.5" opacity="0.25"/>
+  <!-- Mouth/lips speaking -->
+  <ellipse cx="600" cy="370" rx="30" ry="12" fill="none" stroke="#4EC5D4" stroke-width="1.5" opacity="0.4"/>
+  <!-- Sound waves from mouth -->
+  <path d="M640,370 C660,350 660,390 680,370" fill="none" stroke="#4EC5D4" stroke-width="1" opacity="0.3"/>
+  <path d="M690,370 C710,340 710,400 730,370" fill="none" stroke="#4EC5D4" stroke-width="1" opacity="0.2"/>
+  <path d="M740,370 C760,330 760,410 780,370" fill="none" stroke="#4EC5D4" stroke-width="1" opacity="0.12"/>
+  <!-- Neural network nodes -->
+  <g opacity="0.2">
+    <circle cx="900" cy="200" r="6" fill="none" stroke="#4EC5D4" stroke-width="1"/>
+    <circle cx="900" cy="280" r="6" fill="none" stroke="#4EC5D4" stroke-width="1"/>
+    <circle cx="900" cy="360" r="6" fill="none" stroke="#4EC5D4" stroke-width="1"/>
+    <circle cx="900" cy="440" r="6" fill="none" stroke="#4EC5D4" stroke-width="1"/>
+    <circle cx="1020" cy="240" r="6" fill="none" stroke="#4EC5D4" stroke-width="1"/>
+    <circle cx="1020" cy="337" r="6" fill="none" stroke="#4EC5D4" stroke-width="1"/>
+    <circle cx="1020" cy="434" r="6" fill="none" stroke="#4EC5D4" stroke-width="1"/>
+    <circle cx="1100" cy="337" r="6" fill="#4EC5D4" opacity="0.5"/>
+    <line x1="906" y1="200" x2="1014" y2="240" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="906" y1="200" x2="1014" y2="337" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="906" y1="280" x2="1014" y2="240" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="906" y1="280" x2="1014" y2="337" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="906" y1="360" x2="1014" y2="337" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="906" y1="360" x2="1014" y2="434" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="906" y1="440" x2="1014" y2="337" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="906" y1="440" x2="1014" y2="434" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="1026" y1="240" x2="1094" y2="337" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="1026" y1="337" x2="1094" y2="337" stroke="#4EC5D4" stroke-width="0.5"/>
+    <line x1="1026" y1="434" x2="1094" y2="337" stroke="#4EC5D4" stroke-width="0.5"/>
+  </g>
+</svg>
+</div>
+
+<!-- 5. Temporal Integration in Children -->
+<div class="cover" id="temporal-integration">
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#0a0a0a"/>
+  <!-- Brain outline (side view, simplified) -->
+  <path d="M350,450 C250,440 180,380 160,300 C140,220 170,160 230,120 C290,80 380,60 480,70 C580,80 660,100 720,140 C780,180 810,240 800,310 C790,380 750,430 700,450 C650,470 600,470 550,460" fill="none" stroke="#4EC5D4" stroke-width="1.5" opacity="0.2"/>
+  <!-- Auditory cortex region - bright -->
+  <ellipse cx="720" cy="320" rx="40" ry="25" fill="#4EC5D4" opacity="0.25" transform="rotate(-20 720 320)"/>
+  <!-- DMN regions - precuneus -->
+  <ellipse cx="400" cy="180" rx="35" ry="25" fill="#4EC5D4" opacity="0.12"/>
+  <!-- Angular gyrus -->
+  <ellipse cx="550" cy="380" rx="30" ry="20" fill="#4EC5D4" opacity="0.12"/>
+  <!-- dlPFC -->
+  <ellipse cx="300" cy="250" rx="30" ry="22" fill="#4EC5D4" opacity="0.12"/>
+  <!-- Connection lines (network) -->
+  <line x1="720" y1="320" x2="550" y2="380" stroke="#4EC5D4" stroke-width="1" opacity="0.15"/>
+  <line x1="720" y1="320" x2="400" y2="180" stroke="#4EC5D4" stroke-width="1" opacity="0.15"/>
+  <line x1="720" y1="320" x2="300" y2="250" stroke="#4EC5D4" stroke-width="1" opacity="0.15"/>
+  <line x1="400" y1="180" x2="300" y2="250" stroke="#4EC5D4" stroke-width="1" opacity="0.08"/>
+  <line x1="400" y1="180" x2="550" y2="380" stroke="#4EC5D4" stroke-width="1" opacity="0.08"/>
+  <!-- Timescale arrows at bottom -->
+  <line x1="850" y1="500" x2="1150" y2="500" stroke="#4EC5D4" stroke-width="1" opacity="0.2"/>
+  <polygon points="1150,497 1158,500 1150,503" fill="#4EC5D4" opacity="0.2"/>
+  <!-- Timescale blocks -->
+  <rect x="860" y="480" width="60" height="12" fill="#4EC5D4" opacity="0.4" rx="2"/>
+  <rect x="940" y="480" width="100" height="12" fill="#4EC5D4" opacity="0.25" rx="2"/>
+  <rect x="1060" y="480" width="80" height="12" fill="#4EC5D4" opacity="0.12" rx="2"/>
+  <text x="870" y="540" fill="#4EC5D4" opacity="0.15" font-family="monospace" font-size="9">words</text>
+  <text x="960" y="540" fill="#4EC5D4" opacity="0.15" font-family="monospace" font-size="9">sentences</text>
+  <text x="1070" y="540" fill="#4EC5D4" opacity="0.15" font-family="monospace" font-size="9">narrative</text>
+</svg>
+</div>
+
+</body>
+</html>

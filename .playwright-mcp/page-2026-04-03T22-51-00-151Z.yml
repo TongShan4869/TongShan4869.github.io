@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Tong Shan 单 彤" [ref=e4]:
+        - /url: /
+        - generic [ref=e5]: Tong Shan
+        - generic [ref=e6]: 单 彤
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Quick Links
+        - paragraph [ref=e9]:
+          - generic [ref=e10]:
+            - link "Home" [ref=e11]:
+              - /url: /
+            - text: "|"
+          - generic [ref=e12]:
+            - link "Projects" [ref=e13]:
+              - /url: /projects
+            - text: "|"
+          - generic [ref=e14]:
+            - link "Publications" [ref=e15]:
+              - /url: /publications
+            - text: "|"
+          - generic [ref=e16]:
+            - link "Blog" [ref=e17]:
+              - /url: /blog
+            - text: "|"
+          - generic [ref=e18]:
+            - link "CV" [ref=e19]:
+              - /url: /cv
+            - text: "|"
+          - link "Contact" [ref=e21]:
+            - /url: /contact
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Researcher / Engineer / Creator
+        - paragraph [ref=e24]: Postdoc @ Stanford
+  - generic [ref=e27]:
+    - heading "PROJECTS" [level=1] [ref=e29]
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - button "All" [ref=e33]
+        - button "Academic Research" [ref=e35]
+      - generic [ref=e36]:
+        - link "Temporal Integration of Speech in Children Academic Research Temporal Integration of Speech in Children Temporal Integration of Speech in Children Investigating the cortical hierarchy of temporal integration windows during naturalistic speech processing in school-aged children using fMRI" [ref=e40]:
+          - /url: /projects/temporal-integration-speech-children
+          - generic [ref=e41]:
+            - img "Temporal Integration of Speech in Children" [ref=e43]
+            - generic [ref=e46]: Academic Research
+            - generic [ref=e48]: Temporal Integration of Speech in Children
+          - generic [ref=e49]:
+            - heading "Temporal Integration of Speech in Children" [level=3] [ref=e50]
+            - paragraph [ref=e51]: Investigating the cortical hierarchy of temporal integration windows during naturalistic speech processing in school-aged children using fMRI
+        - link "Deriving ABR from Naturalistic Sounds Academic Research Deriving ABR from Naturalistic Sounds Deriving ABR from Naturalistic Sounds Developing novel methods to derive auditory brainstem responses (ABR) from continuous naturalistic speech and music, and comparing subcortical vs. cortical encoding across sound classes" [ref=e55]:
+          - /url: /projects/neural-encoding-of-music-and-speech
+          - generic [ref=e56]:
+            - img "Deriving ABR from Naturalistic Sounds" [ref=e58]
+            - generic [ref=e61]: Academic Research
+            - generic [ref=e63]: Deriving ABR from Naturalistic Sounds
+          - generic [ref=e64]:
+            - heading "Deriving ABR from Naturalistic Sounds" [level=3] [ref=e65]
+            - paragraph [ref=e66]: Developing novel methods to derive auditory brainstem responses (ABR) from continuous naturalistic speech and music, and comparing subcortical vs. cortical encoding across sound classes
+        - link "Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding Academic Research Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding Exploring pitch-timing interaction on the neural encoding of music" [ref=e70]:
+          - /url: /projects/chimeric-music
+          - generic [ref=e71]:
+            - img "Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding" [ref=e73]
+            - generic [ref=e76]: Academic Research
+            - generic [ref=e78]: Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding
+          - generic [ref=e79]:
+            - heading "Chimeric Music Reveals an Interaction of Pitch and Time in Electrophysiological Signatures of Music Encoding" [level=3] [ref=e80]
+            - paragraph [ref=e81]: Exploring pitch-timing interaction on the neural encoding of music
+        - link "Speech-in-Noise Comprehension with DNN-Generated Talking Face Academic Research Speech-in-Noise Comprehension with DNN-Generated Talking Face Speech-in-Noise Comprehension with DNN-Generated Talking Face Evaluating how deep-neural-network-synthesized visual speech cues improve speech comprehension in noisy environments" [ref=e85]:
+          - /url: /projects/speech-in-noise-dnn-talking-face
+          - generic [ref=e86]:
+            - img "Speech-in-Noise Comprehension with DNN-Generated Talking Face" [ref=e88]
+            - generic [ref=e91]: Academic Research
+            - generic [ref=e93]: Speech-in-Noise Comprehension with DNN-Generated Talking Face
+          - generic [ref=e94]:
+            - heading "Speech-in-Noise Comprehension with DNN-Generated Talking Face" [level=3] [ref=e95]
+            - paragraph [ref=e96]: Evaluating how deep-neural-network-synthesized visual speech cues improve speech comprehension in noisy environments
+        - link "Musical Consonance Coding in Midbrain Neurons Academic Research Musical Consonance Coding in Midbrain Neurons Musical Consonance Coding in Midbrain Neurons Representation of consonance/dissonance of music intervals/chords by the midbrain neurons - A modeling work." [ref=e100]:
+          - /url: /projects/musical-consonance-coding-in-midbrain-neurons
+          - generic [ref=e101]:
+            - img "Musical Consonance Coding in Midbrain Neurons" [ref=e103]
+            - generic [ref=e106]: Academic Research
+            - generic [ref=e108]: Musical Consonance Coding in Midbrain Neurons
+          - generic [ref=e109]:
+            - heading "Musical Consonance Coding in Midbrain Neurons" [level=3] [ref=e110]
+            - paragraph [ref=e111]: Representation of consonance/dissonance of music intervals/chords by the midbrain neurons - A modeling work.
+  - contentinfo [ref=e113]:
+    - generic [ref=e116]: ©2026 Tong Shan
