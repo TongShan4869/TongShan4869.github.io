@@ -1,0 +1,348 @@
+- main [ref=e5]:
+  - iframe [ref=e7]:
+    - main [ref=f7e5]:
+      - iframe [ref=f7e6]:
+        - generic [active] [ref=f8e1]:
+          - link "Skip to content" [ref=f8e2] [cursor=pointer]:
+            - /url: "#_top"
+          - generic [ref=f8e3]:
+            - banner [ref=f8e4]:
+              - generic [ref=f8e5]:
+                - link "Stitch logo Stitch" [ref=f8e7] [cursor=pointer]:
+                  - /url: /docs/
+                  - img "Stitch logo" [ref=f8e8]
+                  - generic [ref=f8e9]: Stitch
+                - button "Search" [ref=f8e12] [cursor=pointer]:
+                  - img [ref=f8e13]
+                  - generic [ref=f8e15]: Search
+                  - generic [ref=f8e16]:
+                    - generic [ref=f8e17]: ⌘
+                    - generic [ref=f8e18]: K
+                - generic [ref=f8e19]:
+                  - link "X" [ref=f8e21] [cursor=pointer]:
+                    - /url: https://x.com/stitchbygoogle
+                    - generic [ref=f8e22]: X
+                    - img [ref=f8e23]
+                  - generic [ref=f8e26]:
+                    - generic [ref=f8e27]: Select theme
+                    - img
+                    - combobox "Select theme" [ref=f8e28] [cursor=pointer]:
+                      - option "Dark"
+                      - option "Light"
+                      - option "Auto" [selected]
+                    - img
+            - navigation "Main":
+              - list [ref=f8e32]:
+                - listitem [ref=f8e33]:
+                  - group [ref=f8e34]:
+                    - generic "Stitch" [ref=f8e35] [cursor=pointer]:
+                      - generic [ref=f8e36]: Stitch
+                      - img [ref=f8e37]
+                    - list [ref=f8e39]:
+                      - listitem [ref=f8e40]:
+                        - link "Everything you need to know" [ref=f8e41] [cursor=pointer]:
+                          - /url: /docs/learn/overview/
+                      - listitem [ref=f8e42]:
+                        - link "Effective Prompting" [ref=f8e43] [cursor=pointer]:
+                          - /url: /docs/learn/prompting/
+                      - listitem [ref=f8e44]:
+                        - link "Device Types" [ref=f8e45] [cursor=pointer]:
+                          - /url: /docs/learn/device-types/
+                      - listitem [ref=f8e46]:
+                        - link "Design Modes" [ref=f8e47] [cursor=pointer]:
+                          - /url: /docs/learn/design-modes/
+                      - listitem [ref=f8e48]:
+                        - link "Generate design variations" [ref=f8e49] [cursor=pointer]:
+                          - /url: /docs/learn/variants/
+                      - listitem [ref=f8e50]:
+                        - link "Controls & Hotkeys" [ref=f8e51] [cursor=pointer]:
+                          - /url: /docs/learn/controls/
+                - listitem [ref=f8e52]:
+                  - group [ref=f8e53]:
+                    - generic "MCP" [ref=f8e54] [cursor=pointer]:
+                      - generic [ref=f8e55]: MCP
+                      - img [ref=f8e56]
+                    - list [ref=f8e58]:
+                      - listitem [ref=f8e59]:
+                        - link "Setup & Authentication" [ref=f8e60] [cursor=pointer]:
+                          - /url: /docs/mcp/setup/
+                      - listitem [ref=f8e61]:
+                        - link "Guide" [ref=f8e62] [cursor=pointer]:
+                          - /url: /docs/mcp/guide/
+                      - listitem [ref=f8e63]:
+                        - link "Reference" [ref=f8e64] [cursor=pointer]:
+                          - /url: /docs/mcp/reference/
+                - listitem [ref=f8e65]:
+                  - group [ref=f8e66]:
+                    - generic "SDK" [ref=f8e67] [cursor=pointer]:
+                      - generic [ref=f8e68]: SDK
+                      - img [ref=f8e69]
+                    - list [ref=f8e71]:
+                      - listitem [ref=f8e72]:
+                        - link "Build your first design" [ref=f8e73] [cursor=pointer]:
+                          - /url: /docs/sdk/tutorial/
+                      - listitem [ref=f8e74]:
+                        - link "Use with AI SDK" [ref=f8e75] [cursor=pointer]:
+                          - /url: /docs/sdk/ai-sdk/
+                      - listitem [ref=f8e76]:
+                        - link "Agent-driven workflows" [ref=f8e77] [cursor=pointer]:
+                          - /url: /docs/sdk/agent-workflows/
+                      - listitem [ref=f8e78]:
+                        - link "How to edit a screen" [ref=f8e79] [cursor=pointer]:
+                          - /url: /docs/sdk/edit-screen/
+                      - listitem [ref=f8e80]:
+                        - link "How to generate variants" [ref=f8e81] [cursor=pointer]:
+                          - /url: /docs/sdk/generate-variants/
+                      - listitem [ref=f8e82]:
+                        - link "How to download artifacts" [ref=f8e83] [cursor=pointer]:
+                          - /url: /docs/sdk/download-artifacts/
+                      - listitem [ref=f8e84]:
+                        - link "How to extract themes" [ref=f8e85] [cursor=pointer]:
+                          - /url: /docs/sdk/extract-themes/
+                      - listitem [ref=f8e86]:
+                        - link "Reference" [ref=f8e87] [cursor=pointer]:
+                          - /url: /docs/sdk/reference/
+                      - listitem [ref=f8e88]:
+                        - link "Architecture" [ref=f8e89] [cursor=pointer]:
+                          - /url: /docs/sdk/architecture/
+                - listitem [ref=f8e90]:
+                  - group [ref=f8e91]:
+                    - generic "DESIGN.md" [ref=f8e92] [cursor=pointer]:
+                      - generic [ref=f8e93]: DESIGN.md
+                      - img [ref=f8e94]
+                    - list [ref=f8e96]:
+                      - listitem [ref=f8e97]:
+                        - link "What is DESIGN.md?" [ref=f8e98] [cursor=pointer]:
+                          - /url: /docs/design-md/overview/
+                      - listitem [ref=f8e99]:
+                        - link "The format" [ref=f8e100] [cursor=pointer]:
+                          - /url: /docs/design-md/format/
+                      - listitem [ref=f8e101]:
+                        - link "View, edit, and export" [ref=f8e102] [cursor=pointer]:
+                          - /url: /docs/design-md/usage/
+            - generic [ref=f8e104]:
+              - complementary [ref=f8e105]:
+                - navigation "On this page" [ref=f8e110]:
+                  - heading "On this page" [level=2] [ref=f8e111]
+                  - list [ref=f8e112]:
+                    - listitem [ref=f8e113]:
+                      - link "Overview" [ref=f8e114] [cursor=pointer]:
+                        - /url: "#_top"
+                    - listitem [ref=f8e115]:
+                      - link "Sections" [ref=f8e116] [cursor=pointer]:
+                        - /url: "#sections"
+                      - list [ref=f8e117]:
+                        - listitem [ref=f8e118]:
+                          - link "Overview" [ref=f8e119] [cursor=pointer]:
+                            - /url: "#overview"
+                        - listitem [ref=f8e120]:
+                          - link "Colors" [ref=f8e121] [cursor=pointer]:
+                            - /url: "#colors"
+                        - listitem [ref=f8e122]:
+                          - link "Typography" [ref=f8e123] [cursor=pointer]:
+                            - /url: "#typography"
+                        - listitem [ref=f8e124]:
+                          - link "Elevation" [ref=f8e125] [cursor=pointer]:
+                            - /url: "#elevation"
+                        - listitem [ref=f8e126]:
+                          - link "Components" [ref=f8e127] [cursor=pointer]:
+                            - /url: "#components"
+                        - listitem [ref=f8e128]:
+                          - link "Do’s and Don’ts" [ref=f8e129] [cursor=pointer]:
+                            - /url: "#dos-and-donts"
+                    - listitem [ref=f8e130]:
+                      - link "The dual representation" [ref=f8e131] [cursor=pointer]:
+                        - /url: "#the-dual-representation"
+              - main [ref=f8e133]:
+                - generic [ref=f8e136]:
+                  - paragraph [ref=f8e137]: Learn
+                  - heading "The DESIGN.md format" [level=1] [ref=f8e138]
+                  - paragraph [ref=f8e139]: The sections, tokens, and structure of a DESIGN.md file.
+                - generic [ref=f8e141]:
+                  - generic [ref=f8e142]:
+                    - paragraph [ref=f8e143]:
+                      - text: A
+                      - code [ref=f8e144]: DESIGN.md
+                      - text: file has two faces. The
+                      - strong [ref=f8e145]: markdown
+                      - text: is what you read and edit, a human-friendly summary of your design system. Underneath, Stitch maintains
+                      - strong [ref=f8e146]: structured tokens
+                      - text: ", the precise values it uses to enforce consistency during generation."
+                    - paragraph [ref=f8e147]: This page documents what goes in the markdown.
+                    - generic [ref=f8e148]:
+                      - heading "Sections" [level=2] [ref=f8e149]
+                      - link "Section titled “Sections”" [ref=f8e150] [cursor=pointer]:
+                        - /url: "#sections"
+                        - img [ref=f8e152]
+                        - generic [ref=f8e154]: Section titled “Sections”
+                    - paragraph [ref=f8e155]:
+                      - text: Every
+                      - code [ref=f8e156]: DESIGN.md
+                      - text: follows the same structure. Sections can be omitted if they’re not relevant to your project, but the order should be preserved.
+                    - generic [ref=f8e157]:
+                      - heading "Overview" [level=3] [ref=f8e158]
+                      - link "Section titled “Overview”" [ref=f8e159] [cursor=pointer]:
+                        - /url: "#overview"
+                        - img [ref=f8e161]
+                        - generic [ref=f8e163]: Section titled “Overview”
+                    - paragraph [ref=f8e164]: "A holistic description of the design’s look and feel. This is where you describe the personality: is it playful or professional? Dense or spacious? This section guides the agent’s high-level decisions when no specific token applies."
+                    - figure [ref=f8e166]:
+                      - region [ref=f8e167]:
+                        - code [ref=f8e168]:
+                          - generic [ref=f8e170]: "## Overview"
+                          - generic [ref=f8e172]: A calm, professional interface for a healthcare scheduling platform.
+                          - generic [ref=f8e174]: Accessibility-first design with high contrast and generous touch targets.
+                      - button "Copy to clipboard" [ref=f8e176] [cursor=pointer]
+                    - generic [ref=f8e177]:
+                      - heading "Colors" [level=3] [ref=f8e178]
+                      - link "Section titled “Colors”" [ref=f8e179] [cursor=pointer]:
+                        - /url: "#colors"
+                        - img [ref=f8e181]
+                        - generic [ref=f8e183]: Section titled “Colors”
+                    - paragraph [ref=f8e184]: The primary, secondary, tertiary, and neutral palettes. Each color should include its hex value and its role describing what the agent should use it for.
+                    - figure [ref=f8e186]:
+                      - code [ref=f8e188]:
+                        - generic [ref=f8e190]: "## Colors"
+                        - generic [ref=f8e192]: "- **Primary** (#2665fd): CTAs, active states, key interactive elements"
+                        - generic [ref=f8e194]: "- **Secondary** (#6074b9): Supporting actions, chips, toggle states"
+                        - generic [ref=f8e196]: "- **Tertiary** (#bd3800): Accent highlights, badges, decorative elements"
+                        - generic [ref=f8e198]: "- **Neutral** (#757681): Backgrounds, surfaces, non-chromatic UI"
+                      - button "Copy to clipboard" [ref=f8e200] [cursor=pointer]
+                    - paragraph [ref=f8e201]:
+                      - text: The agent also generates
+                      - strong [ref=f8e202]: named colors
+                      - text: "from these base values:"
+                      - code [ref=f8e203]: surface
+                      - text: ","
+                      - code [ref=f8e204]: on-primary
+                      - text: ","
+                      - code [ref=f8e205]: error
+                      - text: ","
+                      - code [ref=f8e206]: outline
+                      - text: ", and dozens more. These follow Material color role conventions and are available in the structured tokens."
+                    - generic [ref=f8e207]:
+                      - heading "Typography" [level=3] [ref=f8e208]
+                      - link "Section titled “Typography”" [ref=f8e209] [cursor=pointer]:
+                        - /url: "#typography"
+                        - img [ref=f8e211]
+                        - generic [ref=f8e213]: Section titled “Typography”
+                    - paragraph [ref=f8e214]: "The font families and their roles across the typographic hierarchy: display, headline, title, body, and label levels."
+                    - figure [ref=f8e216]:
+                      - region [ref=f8e217]:
+                        - code [ref=f8e218]:
+                          - generic [ref=f8e220]: "## Typography"
+                          - generic [ref=f8e222]: "- **Headline Font**: Inter"
+                          - generic [ref=f8e224]: "- **Body Font**: Inter"
+                          - generic [ref=f8e226]: "- **Label Font**: Inter"
+                          - generic [ref=f8e230]: Headlines use semi-bold weight. Body text uses regular weight at 14–16px.
+                          - generic [ref=f8e232]: Labels use medium weight at 12px with uppercase for section headers.
+                      - button "Copy to clipboard" [ref=f8e234] [cursor=pointer]
+                    - paragraph [ref=f8e235]: The relationship between headline and body fonts matters. Using the same family (like Inter) conveys uniformity. Mixing families (e.g., a serif headline with a sans-serif body) creates visual contrast the agent will intentionally carry through.
+                    - generic [ref=f8e236]:
+                      - heading "Elevation" [level=3] [ref=f8e237]
+                      - link "Section titled “Elevation”" [ref=f8e238] [cursor=pointer]:
+                        - /url: "#elevation"
+                        - img [ref=f8e240]
+                        - generic [ref=f8e242]: Section titled “Elevation”
+                    - paragraph [ref=f8e243]: How the design conveys depth and hierarchy. Some designs use shadows; others stay flat.
+                    - figure [ref=f8e245]:
+                      - region [ref=f8e246]:
+                        - code [ref=f8e247]:
+                          - generic [ref=f8e249]: "## Elevation"
+                          - generic [ref=f8e251]: This design uses no shadows. Depth is conveyed through border contrast
+                          - generic [ref=f8e253]: and surface color variation (surface, surface-container, surface-bright).
+                      - button "Copy to clipboard" [ref=f8e255] [cursor=pointer]
+                    - paragraph [ref=f8e256]: If elevation is used, specify the shadow properties (spread, blur, color) and which components should be elevated.
+                    - generic [ref=f8e257]:
+                      - heading "Components" [level=3] [ref=f8e258]
+                      - link "Section titled “Components”" [ref=f8e259] [cursor=pointer]:
+                        - /url: "#components"
+                        - img [ref=f8e261]
+                        - generic [ref=f8e263]: Section titled “Components”
+                    - paragraph [ref=f8e264]: Style guidance for component atoms. Focus on the components most relevant to your application.
+                    - table [ref=f8e265]:
+                      - rowgroup [ref=f8e266]:
+                        - row "Component What to specify" [ref=f8e267]:
+                          - columnheader "Component" [ref=f8e268]
+                          - columnheader "What to specify" [ref=f8e269]
+                      - rowgroup [ref=f8e270]:
+                        - row "Buttons Variants (primary, secondary, tertiary), sizing, padding, corner radius, states" [ref=f8e271]:
+                          - cell "Buttons" [ref=f8e272]:
+                            - strong [ref=f8e273]: Buttons
+                          - cell "Variants (primary, secondary, tertiary), sizing, padding, corner radius, states" [ref=f8e274]
+                        - row "Chips Selection, filter, and action variants" [ref=f8e275]:
+                          - cell "Chips" [ref=f8e276]:
+                            - strong [ref=f8e277]: Chips
+                          - cell "Selection, filter, and action variants" [ref=f8e278]
+                        - row "Lists Item styling, dividers, leading/trailing elements" [ref=f8e279]:
+                          - cell "Lists" [ref=f8e280]:
+                            - strong [ref=f8e281]: Lists
+                          - cell "Item styling, dividers, leading/trailing elements" [ref=f8e282]
+                        - row "Inputs Text fields, text areas, labels, helper text, error states" [ref=f8e283]:
+                          - cell "Inputs" [ref=f8e284]:
+                            - strong [ref=f8e285]: Inputs
+                          - cell "Text fields, text areas, labels, helper text, error states" [ref=f8e286]
+                        - row "Checkboxes Checked, unchecked, indeterminate states" [ref=f8e287]:
+                          - cell "Checkboxes" [ref=f8e288]:
+                            - strong [ref=f8e289]: Checkboxes
+                          - cell "Checked, unchecked, indeterminate states" [ref=f8e290]
+                        - row "Radio buttons Selected and unselected states" [ref=f8e291]:
+                          - cell "Radio buttons" [ref=f8e292]:
+                            - strong [ref=f8e293]: Radio buttons
+                          - cell "Selected and unselected states" [ref=f8e294]
+                        - row "Tooltips Positioning, colors, timing" [ref=f8e295]:
+                          - cell "Tooltips" [ref=f8e296]:
+                            - strong [ref=f8e297]: Tooltips
+                          - cell "Positioning, colors, timing" [ref=f8e298]
+                    - figure [ref=f8e300]:
+                      - region [ref=f8e301]:
+                        - code [ref=f8e302]:
+                          - generic [ref=f8e304]: "## Components"
+                          - generic [ref=f8e306]: "- **Buttons**: Rounded (8px), primary uses brand blue fill, secondary uses outline"
+                          - generic [ref=f8e308]: "- **Inputs**: 1px border, surface-variant background, 12px padding"
+                          - generic [ref=f8e310]: "- **Cards**: No elevation, 1px outline border, 12px corner radius"
+                      - button "Copy to clipboard" [ref=f8e312] [cursor=pointer]
+                    - paragraph [ref=f8e313]: You can suggest components based on your project’s context. For example, a navigation bar for a mobile app or a data table for a dashboard.
+                    - generic [ref=f8e314]:
+                      - heading "Do’s and Don’ts" [level=3] [ref=f8e315]
+                      - link "Section titled “Do’s and Don’ts”" [ref=f8e316] [cursor=pointer]:
+                        - /url: "#dos-and-donts"
+                        - img [ref=f8e318]
+                        - generic [ref=f8e320]: Section titled “Do’s and Don’ts”
+                    - paragraph [ref=f8e321]: Practical guidelines and common pitfalls. These act as guardrails when creating designs.
+                    - figure [ref=f8e323]:
+                      - region [ref=f8e324]:
+                        - code [ref=f8e325]:
+                          - generic [ref=f8e327]: "## Do's and Don'ts"
+                          - generic [ref=f8e329]: "- Do use the primary color only for the single most important action per screen"
+                          - generic [ref=f8e331]: "- Don't mix rounded and sharp corners in the same view"
+                          - generic [ref=f8e333]: "- Do maintain WCAG AA contrast ratios (4.5:1 for normal text)"
+                          - generic [ref=f8e335]: "- Don't use more than two font weights on a single screen"
+                      - button "Copy to clipboard" [ref=f8e337] [cursor=pointer]
+                    - generic [ref=f8e338]:
+                      - heading "The dual representation" [level=2] [ref=f8e339]
+                      - link "Section titled “The dual representation”" [ref=f8e340] [cursor=pointer]:
+                        - /url: "#the-dual-representation"
+                        - img [ref=f8e342]
+                        - generic [ref=f8e344]: Section titled “The dual representation”
+                    - paragraph [ref=f8e345]: "The markdown you see is one side. Stitch also stores a structured version of the same information: hex values, font enums, spacing scales, and the full named color palette. When you edit the markdown, Stitch reconciles both representations."
+                    - paragraph [ref=f8e346]:
+                      - text: This means you can be approximate in the markdown (“warm colors, rounded feel”) and Stitch will translate that into precise tokens. Or you can be exact (
+                      - code [ref=f8e347]: "#2665fd"
+                      - text: ","
+                      - code [ref=f8e348]: 8px radius
+                      - text: ) and Stitch will respect those values literally.
+                    - paragraph [ref=f8e349]: Both representations describe the same design system. The markdown is for collaboration. The tokens are for enforcement.
+                  - generic [ref=f8e351]:
+                    - link "Previous What is DESIGN.md?" [ref=f8e352] [cursor=pointer]:
+                      - /url: /docs/design-md/overview/
+                      - img [ref=f8e353]
+                      - generic [ref=f8e355]:
+                        - text: Previous
+                        - text: What is DESIGN.md?
+                    - link "Next View, edit, and export" [ref=f8e356] [cursor=pointer]:
+                      - /url: /docs/design-md/usage/
+                      - img [ref=f8e357]
+                      - generic [ref=f8e359]:
+                        - text: Next
+                        - text: View, edit, and export
