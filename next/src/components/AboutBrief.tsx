@@ -90,7 +90,7 @@ export default function AboutBrief({ bio, photo }: AboutBriefProps) {
             </a>
             {/* LinkedIn */}
             <a
-              href="https://linkedin.com/in/tong-shan1994"
+              href="https://www.linkedin.com/in/tongshan-cu/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-accent transition-colors"

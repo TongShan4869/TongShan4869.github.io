@@ -13,7 +13,7 @@ const socials = [
     ),
   },
   {
-    url: "https://linkedin.com/in/tong-shan1994",
+    url: "https://www.linkedin.com/in/tongshan-cu/",
     label: "LinkedIn",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
