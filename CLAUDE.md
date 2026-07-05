@@ -7,10 +7,10 @@ Personal academic portfolio site for Tong Shan, deployed at https://tongshan4869
 ## Repository Structure
 
 - `next/` — Next.js application (all source code lives here)
-  - `src/app/` — App Router pages: home, blog, contact, cv, projects, publications
+  - `src/app/` — App Router pages: home, blog, contact, cv, news, projects, publications
   - `src/app/api/` and `src/app/keystatic/` — Dev-only Keystatic CMS routes (excluded from production build)
   - `src/components/` — React components
-  - `src/content/` — Content files (papers.bib, projects as .mdoc, blog posts as .mdoc, singletons as JSON)
+  - `src/content/` — Content files (papers.bib, projects and blog posts and news as .mdoc, singletons as JSON)
   - `src/lib/` — Utility functions
   - `public/` — Static assets (images, fonts)
   - `public/images/posts/` — Blog post images (cover images and inline images)
@@ -69,3 +69,11 @@ npm run lint    # ESLint
 - Inline images for a post go in `public/images/posts/<slug>/` and are referenced as `/images/posts/<slug>/<filename>`.
 - Posts are rendered via Markdoc's HTML renderer with `prose prose-invert` styling.
 - Posts are sorted by date (newest first) on the blog listing page.
+
+## News
+
+- News items live in `src/content/news/<slug>/index.mdoc` (Keystatic `news` collection).
+- Frontmatter fields: `title`, `date` (YYYY-MM-DD, required), `category` (`talk` | `event` | `press`), `location`, `description`, `link` (optional). The `body` is unused in rendering.
+- Surfaced on the dedicated `/news` page (`NewsList`, client-side category filter) and as the homepage highlights (`NewsSection`, latest 5 + "View all" link).
+- The `/news` page must map news items to plain objects before passing to `NewsList` — the Keystatic `body` field is a function and cannot be serialized into a Client Component.
+- Category labels and the `formatMonthYear` date formatter live in `src/lib/date.ts`.
