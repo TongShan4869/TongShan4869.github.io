@@ -26,9 +26,9 @@
     },
     {
       "degree": "Certificate",
-      "institution": "Deeplearning.ai",
+      "institution": "DeepLearning.AI & Stanford University",
       "year": "2026",
-      "description": "Agentic AI"
+      "description": "Machine Learning Specialization"
     }
   ],
   "experience": [
@@ -89,6 +89,68 @@
     "Audio Engineering (Logic Pro X, Max/MSP)",
     "Game Audio (Unity)",
     "Music Production"
+  ],
+  "conferences": [
+    {
+      "title": "A Cortical Hierarchy of Temporal Integration Windows During Naturalistic Speech Processing in Children",
+      "venue": "Association for Research in Otolaryngology (ARO) Mid-Winter Meeting",
+      "type": "Podium Talk",
+      "year": "2026"
+    },
+    {
+      "title": "Influence of ADHD Comorbidity and Sex on Symptom Presentation and Self-Injurious Behaviors in Autism Spectrum Disorder",
+      "venue": "Bay Area Autism Consortium (BAAC) Annual Research Symposium",
+      "type": "Poster",
+      "year": "2025"
+    },
+    {
+      "title": "Chimera Music: Exploring Pitch-Timing Interaction on the Neural Encoding of Music",
+      "venue": "Association for Research in Otolaryngology (ARO) Mid-Winter Meeting",
+      "type": "Poster",
+      "year": "2024"
+    },
+    {
+      "title": "Comparing Methods for Deriving the Auditory Brainstem Response to Continuous Speech in Human Listeners",
+      "venue": "Association for Research in Otolaryngology (ARO) Mid-Winter Meeting",
+      "type": "Poster",
+      "year": "2023"
+    },
+    {
+      "title": "Subcortical Response to Continuous Music in Human Listeners",
+      "venue": "Auditory System Gordon Research Conference & Seminar",
+      "type": "Poster",
+      "year": "2022"
+    },
+    {
+      "title": "Subcortical Responses to Continuous Music in Human Listeners",
+      "venue": "Association for Research in Otolaryngology (ARO) Mid-Winter Meeting",
+      "type": "Poster",
+      "year": "2022"
+    },
+    {
+      "title": "DNN-based Generation of Talking Faces Benefiting Speech Comprehension in Noisy Environment",
+      "venue": "Association for Research in Otolaryngology (ARO) Mid-Winter Meeting",
+      "type": "Poster",
+      "year": "2021"
+    },
+    {
+      "title": "Subcortical Response to Continuous Music in Human Listeners",
+      "venue": "Association for Research in Otolaryngology (ARO) Mid-Winter Meeting",
+      "type": "Podium Talk",
+      "year": "2020"
+    },
+    {
+      "title": "Neural Fluctuation Profiles: Yet Another Model for Pitch",
+      "venue": "Association for Research in Otolaryngology (ARO) Mid-Winter Meeting",
+      "type": "Poster",
+      "year": "2019"
+    },
+    {
+      "title": "Distinct Cortical Thinning Pattern in Never Treated Schizophrenia",
+      "venue": "Organization for Human Brain Mapping (OHBM)",
+      "type": "Poster",
+      "year": "2017"
+    }
   ],
   "memberships": [
     {

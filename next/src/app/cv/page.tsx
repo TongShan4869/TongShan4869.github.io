@@ -30,6 +30,7 @@ export default async function CVPage() {
 
   const awards = cv?.awards ?? [];
   const skills = cv?.skills ?? [];
+  const conferences = cv?.conferences ?? [];
   const memberships = cv?.memberships ?? [];
   const cvPdfPath = site?.cvPdfPath ?? "/files/cv.pdf";
 
@@ -94,6 +95,31 @@ export default async function CVPage() {
                   {award.year}
                 </span>
                 <p className="text-base text-white">{award.title}</p>
+              </div>
+            </AnimateOnScroll>
+          ))}
+        </div>
+      </section>
+
+      <AnimatedDivider className="mx-8 md:mx-16 lg:mx-16" />
+
+      {/* Conferences & Presentations */}
+      <section className="px-8 md:px-16 lg:px-16 py-16">
+        <AnimateOnScroll><h2 className="text-3xl md:text-5xl font-display font-bold tracking-tightest mb-8" style={{ color: "#ffffff" }}>CONFERENCES &amp; PRESENTATIONS</h2></AnimateOnScroll>
+        <div className="flex flex-col">
+          {conferences.map((c, i) => (
+            <AnimateOnScroll key={`${c.year}-${c.title}`} delay={i * 0.06}>
+              <div className="grid grid-cols-[6rem_1fr] md:grid-cols-[10rem_1fr] gap-4 md:gap-8 py-5 border-b border-white/10 last:border-b-0">
+                <span className="text-sm text-secondary font-mono pt-1 shrink-0">
+                  {c.year}
+                </span>
+                <div className="min-w-0">
+                  <span className="inline-block text-xs uppercase tracking-wider text-accent border border-accent/40 rounded-full px-2.5 py-0.5 mb-2">
+                    {c.type}
+                  </span>
+                  <p className="text-base text-white">{c.title}</p>
+                  <p className="text-sm text-secondary mt-1">{c.venue}</p>
+                </div>
               </div>
             </AnimateOnScroll>
           ))}

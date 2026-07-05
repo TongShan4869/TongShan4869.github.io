@@ -76,6 +76,18 @@ export default config({
           label: "Date",
           validation: { isRequired: true },
         }),
+        category: fields.select({
+          label: "Category",
+          options: [
+            { label: "Invited Talk", value: "talk" },
+            { label: "Event", value: "event" },
+            { label: "Media / Press", value: "press" },
+          ],
+          defaultValue: "talk",
+        }),
+        location: fields.text({ label: "Location / Venue" }),
+        description: fields.text({ label: "Description", multiline: true }),
+        link: fields.url({ label: "Link (optional)" }),
         body: fields.markdoc({ label: "Body" }),
       },
     }),
@@ -150,6 +162,18 @@ export default config({
         skills: fields.array(fields.text({ label: "Skill" }), {
           label: "Skills",
         }),
+        conferences: fields.array(
+          fields.object({
+            title: fields.text({ label: "Title" }),
+            venue: fields.text({ label: "Venue" }),
+            type: fields.text({ label: "Type (Poster / Podium Talk)" }),
+            year: fields.text({ label: "Year" }),
+          }),
+          {
+            label: "Conferences & Presentations",
+            itemLabel: (props) => props.fields.title.value,
+          }
+        ),
         memberships: fields.array(
           fields.object({
             name: fields.text({ label: "Organization" }),
