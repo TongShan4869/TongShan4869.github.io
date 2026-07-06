@@ -162,6 +162,9 @@ export default config({
         skills: fields.array(fields.text({ label: "Skill" }), {
           label: "Skills",
         }),
+        languages: fields.array(fields.text({ label: "Language" }), {
+          label: "Languages",
+        }),
         conferences: fields.array(
           fields.object({
             title: fields.text({ label: "Title" }),

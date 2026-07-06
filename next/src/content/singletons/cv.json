@@ -82,6 +82,8 @@
     "fMRI/DTI",
     "Digital Signal Processing",
     "Machine Learning & Deep Learning",
+    "AI Engineering",
+    "Software Engineering",
     "Statistical Analysis",
     "Computational Modeling",
     "Psychoacoustics",
@@ -89,6 +91,11 @@
     "Audio Engineering (Logic Pro X, Max/MSP)",
     "Game Audio (Unity)",
     "Music Production"
+  ],
+  "languages": [
+    "English (Professional)",
+    "Mandarin (Native)",
+    "Japanese (Elementary)"
   ],
   "conferences": [
     {

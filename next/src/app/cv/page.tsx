@@ -30,6 +30,7 @@ export default async function CVPage() {
 
   const awards = cv?.awards ?? [];
   const skills = cv?.skills ?? [];
+  const languages = cv?.languages ?? [];
   const conferences = cv?.conferences ?? [];
   const memberships = cv?.memberships ?? [];
   const cvPdfPath = site?.cvPdfPath ?? "/files/cv.pdf";
@@ -139,6 +140,25 @@ export default async function CVPage() {
                 className="px-4 py-2 rounded-full border border-white/15 text-sm text-white hover:border-accent hover:text-accent transition-colors"
               >
                 {skill}
+              </MotionPill>
+            ))}
+          </div>
+        </AnimateOnScroll>
+      </section>
+
+      <AnimatedDivider className="mx-8 md:mx-16 lg:mx-16" />
+
+      {/* Languages */}
+      <section className="px-8 md:px-16 lg:px-16 py-16">
+        <AnimateOnScroll><h2 className="text-3xl md:text-5xl font-display font-bold tracking-tightest mb-8" style={{ color: "#ffffff" }}>LANGUAGES</h2></AnimateOnScroll>
+        <AnimateOnScroll>
+          <div className="flex flex-wrap gap-3">
+            {languages.map((language) => (
+              <MotionPill
+                key={language}
+                className="px-4 py-2 rounded-full border border-white/15 text-sm text-white hover:border-accent hover:text-accent transition-colors"
+              >
+                {language}
               </MotionPill>
             ))}
           </div>
